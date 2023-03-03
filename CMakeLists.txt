@@ -18,8 +18,11 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
    msg/Drive.msg
    msg/DriveFeedback.msg
+   msg/Fans.msg
    msg/Feedback.msg
+   msg/Lights.msg
    msg/Power.msg
+   msg/RGB.msg
    msg/Status.msg
    msg/StopStatus.msg
    srv/SetDomainId.srv
