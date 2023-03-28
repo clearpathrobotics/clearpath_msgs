@@ -10,17 +10,28 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>audio_recorder_msgs</exec_depend>
+  <!-- Platform messages -->
   <exec_depend>clearpath_platform_msgs</exec_depend>
-  <exec_depend>ptz_action_server_msgs</exec_depend>
-  <exec_depend>video_recorder_msgs</exec_depend>
-
-  <!-- Robot specific messages for all platforms -->
   <exec_depend>dingo_msgs</exec_depend>
   <exec_depend>husky_msgs</exec_depend>
   <exec_depend>jackal_msgs</exec_depend>
   <exec_depend>ridgeback_msgs</exec_depend>
   <exec_depend>warthog_msgs</exec_depend>
+
+  <!-- OutdoorNav dependencies -->
+  <exec_depend>cpr_configuration_msgs</exec_depend>
+  <exec_depend>cpr_control_msgs</exec_depend>
+  <exec_depend>cpr_dock_msgs</exec_depend>
+  <exec_depend>cpr_localization_msgs</exec_depend>
+  <exec_depend>cpr_navigation_msgs</exec_depend>
+  <exec_depend>cpr_outdoornav_msgs</exec_depend>
+  <exec_depend>cpr_platform_msgs</exec_depend>
+  <exec_depend>cpr_safety_msgs</exec_depend>
+
+  <!-- Autonomy task action dependencies -->
+  <exec_depend>audio_recorder_msgs</exec_depend>
+  <exec_depend>ptz_action_server_msgs</exec_depend>
+  <exec_depend>video_recorder_msgs</exec_depend>
 
   <export>
     <metapackage />

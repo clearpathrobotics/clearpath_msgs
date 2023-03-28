@@ -1,0 +1,4 @@
+# Service definition to set the control mode
+
+cpr_control_msgs/ControlMode mode
+---

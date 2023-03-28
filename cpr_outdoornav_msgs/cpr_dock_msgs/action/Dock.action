@@ -1,0 +1,15 @@
+# Action definition for sending a Clearpath UGV to its charging dock.
+
+# goal
+uint8 DOCK = 0
+uint8 UNDOCK = 1
+
+uint8 type
+bool enable_predock
+---
+# result
+bool success
+---
+# feedback
+string state
+float64 dist_to_dock # (IN DEVELOPMENT)

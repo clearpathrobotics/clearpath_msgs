@@ -1,0 +1,5 @@
+# Service definition to set the datum with a latitude (lat) and longitude (lon)
+
+sensor_msgs/NavSatFix msg
+---
+geometry_msgs/PoseStamped pose
