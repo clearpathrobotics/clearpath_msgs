@@ -2,6 +2,8 @@ name: clearpath_msgs_ci
 
 on:
   push:
+    branches:
+      - '!wip-noetic'
   pull_request:
   schedule:
     - cron: "0 0 * * *" # every day at midnight
