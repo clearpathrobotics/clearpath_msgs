@@ -1,0 +1,21 @@
+# The desired name for the Task
+string name
+
+# The ROS Action to invoke to execute the task
+string service_call
+
+# The version of the task
+string version
+
+# The numerical arguments to pass to the service_call
+float64[] floats
+
+# The string arguments to pass to the service_call
+string[] strings
+
+# Optional list of Waypoint UUIDs to assign this task to automatically
+# The new task will be appended to the end of the existing Waypoints
+string[] assign_to
+---
+# The resulting Task with an auto-generated UUID is returned
+onav_ms2_msgs/Task result

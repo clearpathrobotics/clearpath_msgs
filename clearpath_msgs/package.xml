@@ -18,6 +18,7 @@
   <exec_depend>cpr_control_msgs</exec_depend>
   <exec_depend>cpr_dock_msgs</exec_depend>
   <exec_depend>cpr_localization_msgs</exec_depend>
+  <exec_depend>cpr_onav_mission_manager_msgs</exec_depend>
   <exec_depend>cpr_navigation_msgs</exec_depend>
   <exec_depend>cpr_outdoornav_msgs</exec_depend>
   <exec_depend>cpr_platform_msgs</exec_depend>

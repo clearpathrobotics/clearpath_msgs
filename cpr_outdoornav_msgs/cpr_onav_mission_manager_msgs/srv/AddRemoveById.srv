@@ -1,0 +1,13 @@
+# The UUID of the object we're inserting/removing
+# When removing, all instances with this UUID are deleted from the parent
+string uuid
+
+# The UUID of the parent object
+string parent_uuid
+
+# The zero-based index to insert the object into
+# Ignored when removing
+int32 position
+---
+# True if the object was added/removed successfully, otherwise False
+bool ok
