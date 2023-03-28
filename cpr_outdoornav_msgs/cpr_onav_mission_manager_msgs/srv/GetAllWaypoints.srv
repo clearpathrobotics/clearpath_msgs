@@ -1,0 +1,3 @@
+---
+# The array of all Waypoints defined in the database
+onav_ms2_msgs/Waypoint[] waypoints
