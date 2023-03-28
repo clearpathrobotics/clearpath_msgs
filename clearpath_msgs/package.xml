@@ -10,8 +10,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>audio_recorder_msgs</exec_depend>
   <exec_depend>clearpath_platform_msgs</exec_depend>
   <exec_depend>ptz_action_server_msgs</exec_depend>
+  <exec_depend>video_recorder_msgs</exec_depend>
 
   <!-- Robot specific messages for all platforms -->
   <exec_depend>dingo_msgs</exec_depend>
