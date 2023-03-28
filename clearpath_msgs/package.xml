@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>clearpath_msgs</name>
   <version>0.0.0</version>
@@ -9,11 +8,19 @@
   <maintainer email="rkreinin@clearpathrobotics.com">Roni Kreinin</maintainer>
   <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>ptz_action_server_msg</exec_depend>
+
+  <!-- Robot specific messages for all platforms -->
+  <exec_depend>dingo_msgs</exec_depend>
+  <exec_depend>husky_msgs</exec_depend>
+  <exec_depend>jackal_msgs</exec_depend>
+  <exec_depend>ridgeback_msgs</exec_depend>
+  <exec_depend>warthog_msgs</exec_depend>
 
   <export>
-    <build_type>ament_cmake</build_type>
+    <metapackage />
   </export>
 </package>
