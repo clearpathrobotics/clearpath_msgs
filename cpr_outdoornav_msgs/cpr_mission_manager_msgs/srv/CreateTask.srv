@@ -18,4 +18,4 @@ string[] strings
 string[] assign_to
 ---
 # The resulting Task with an auto-generated UUID is returned
-onav_ms2_msgs/Task result
+cpr_navigation_msgs/Task result

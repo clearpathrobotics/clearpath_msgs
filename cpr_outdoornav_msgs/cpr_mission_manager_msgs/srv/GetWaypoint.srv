@@ -2,4 +2,4 @@
 string uuid
 ---
 # The Waypoint with the given ID, or null if no Waypoint with that ID exists
-onav_ms2_msgs/Waypoint waypoint
+cpr_navigation_msgs/Waypoint waypoint

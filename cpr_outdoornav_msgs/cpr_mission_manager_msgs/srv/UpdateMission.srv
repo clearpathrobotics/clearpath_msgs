@@ -11,4 +11,4 @@ string onav_config
 string[] waypoint_ids
 ---
 # The edited Mission, or null if no mission with the given ID exists
-onav_ms2_msgs/Mission result
+cpr_navigation_msgs/Mission result

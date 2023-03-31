@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(cpr_onav_mission_manager_msgs)
+project(cpr_mission_manager_msgs)
 
 find_package(catkin REQUIRED
   COMPONENTS
+    cpr_navigation_msgs
     message_generation
-    onav_ms2_msgs
     std_msgs
 )
 
@@ -38,7 +38,7 @@ add_service_files(
 
 generate_messages(
   DEPENDENCIES
-    onav_ms2_msgs
+    cpr_navigation_msgs
     std_msgs
 )
 
