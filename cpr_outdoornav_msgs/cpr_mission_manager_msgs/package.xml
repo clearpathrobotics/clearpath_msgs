@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>cpr_onav_mission_manager_msgs</name>
-  <version>0.0.0</version>
-  <description>The cpr_onav_mission_manager_msgs package</description>
+  <name>cpr_mission_manager_msgs</name>
+  <version>0.7.0</version>
+  <description>The cpr_mission_manager_msgs package</description>
 
+  <author email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</author>
   <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
 
   <license>Clearpath Proprietary</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <depend>cpr_navigation_msgs</depend>
   <depend>message_generation</depend>
   <depend>message_runtime</depend>
-
-  <depend>onav_ms2_msgs</depend>
   <depend>std_msgs</depend>
 
   <export>

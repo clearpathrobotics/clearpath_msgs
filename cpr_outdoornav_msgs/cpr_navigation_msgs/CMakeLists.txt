@@ -4,10 +4,11 @@ project(cpr_navigation_msgs)
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED
   COMPONENTS
-    actionlib_msgs
-    message_generation
-    nav_msgs
-    std_msgs
+		actionlib_msgs
+		geometry_msgs
+		message_generation
+		nav_msgs
+		std_msgs
 )
 
 add_message_files(
@@ -15,7 +16,8 @@ add_message_files(
     CurrentGoalInfo.msg
     DistanceToGoal.msg
     Mission.msg
-    MotionState.msg
+		MissionStatus.msg
+		MotionState.msg
     NavigationState.msg
     OdomIntent.msg
     PointVector.msg
@@ -25,6 +27,7 @@ add_message_files(
     TrackError.msg
     Vector2D.msg
     Waypoint.msg
+		WaypointStatus.msg
 )
 
 add_service_files(
@@ -41,13 +44,17 @@ add_action_files(
 	DIRECTORY
     action
 	FILES
-    Mission.action
+		ExecuteMissionByUuid.action
+		GetWaypointPath.action
+		Mission.action
+		SmoothPath.action
     UITask.action
 )
 
 generate_messages(
   DEPENDENCIES
     actionlib_msgs
+		geometry_msgs
     nav_msgs
     std_msgs
 )
@@ -55,6 +62,7 @@ generate_messages(
 catkin_package(
   CATKIN_DEPENDS
     actionlib_msgs
+		geometry_msgs
     message_runtime
     nav_msgs
     std_msgs

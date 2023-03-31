@@ -1,0 +1,10 @@
+# Action definition for executing a mission by name
+
+# goal
+string uuid
+---
+# result
+bool success
+---
+# feedback
+string state
