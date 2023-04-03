@@ -1,0 +1,10 @@
+# Action definition for sending a mission to the Clearpath OutdoorNav software
+
+# goal
+clearpath_navigation_msgs/Mission mission
+---
+# result
+bool success
+---
+# feedback
+string state
