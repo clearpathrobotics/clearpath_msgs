@@ -13,6 +13,7 @@ add_message_files(
   Fans.msg
   Feedback.msg
   Lights.msg
+  PlatformID.msg
   Power.msg
   RGB.msg
   Status.msg
