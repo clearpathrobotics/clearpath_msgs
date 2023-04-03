@@ -1,3 +1,0 @@
----
-# The array of all Waypoints defined in the database
-cpr_navigation_msgs/Waypoint[] waypoints

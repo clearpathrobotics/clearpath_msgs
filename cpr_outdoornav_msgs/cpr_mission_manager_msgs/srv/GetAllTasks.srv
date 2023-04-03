@@ -1,3 +1,0 @@
----
-# The array of all Tasks defined in the database
-cpr_navigation_msgs/Task[] tasks
