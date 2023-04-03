@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Fans.msg
   msg/Feedback.msg
   msg/Lights.msg
+  msg/PlatformID.msg
   msg/Power.msg
   msg/RGB.msg
   msg/Status.msg
