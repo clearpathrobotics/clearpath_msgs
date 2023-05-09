@@ -5,15 +5,15 @@ string uuid
 string name
 
 # The ROS Action that the Task executes
-string service_call
+string action_server_name
 
 # The version of the Task
 string version
 
-# The numerical data to pass to the service_call
+# The numerical data to pass to the action_server_name
 float64[] floats
 
-# The string data to pass to the service_call
+# The string data to pass to the action_server_name
 string[] strings
 ---
 # The edited Task, or null if no Task with the given ID exists
