@@ -2,8 +2,8 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2023-05-19)
+------------------
 * [clearpath_platform_msgs] Fixed typo in Power msg enum.
 * [clearpath_platform_msgs] Added size constants for A200 values.
 * Contributors: Tony Baltovski
