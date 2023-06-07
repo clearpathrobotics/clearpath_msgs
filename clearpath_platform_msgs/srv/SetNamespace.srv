@@ -1,0 +1,4 @@
+string namespace # Robot Namespace
+---
+bool success   # Indicate successful update of robot namespace
+string message # Error/Success message
