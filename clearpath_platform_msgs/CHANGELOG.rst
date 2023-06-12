@@ -2,8 +2,8 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2023-06-12)
+------------------
 * Renamed namespace variable to robot_namespace
 * Added SetNamespace service for micro ROS
 * Contributors: Roni Kreinin
