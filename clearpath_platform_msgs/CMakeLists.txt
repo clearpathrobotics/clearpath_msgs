@@ -25,8 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/RGB.msg
   msg/Status.msg
   msg/StopStatus.msg
-  srv/SetDomainId.srv
-  srv/SetNamespace.srv
+  srv/ConfigureMcu.srv
   DEPENDENCIES std_msgs builtin_interfaces
 )
 
