@@ -2,6 +2,12 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Removed domain id and namespace services
+* ConfigureMcu service
+* Contributors: Roni Kreinin
+
 0.0.3 (2023-06-12)
 ------------------
 * Renamed namespace variable to robot_namespace
