@@ -2,8 +2,8 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2023-06-20)
+------------------
 * Removed domain id and namespace services
 * ConfigureMcu service
 * Contributors: Roni Kreinin
