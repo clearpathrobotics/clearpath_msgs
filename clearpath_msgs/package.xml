@@ -26,7 +26,7 @@
   <exec_depend>cpr_mission_manager_msgs</exec_depend>
   <exec_depend>cpr_navigation_msgs</exec_depend>
   <exec_depend>cpr_outdoornav_msgs</exec_depend>
-  <exec_depend>cpr_platform_msgs</exec_depend>
+  <exec_depend>clearpath_platform_msgs</exec_depend>
   <exec_depend>cpr_safety_msgs</exec_depend>
 
   <!-- Autonomy task action dependencies -->

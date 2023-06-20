@@ -9,7 +9,7 @@ string name
 string uuid
 
 # The ordered list of Waypoints that make up the mission
-clearpath_navigation_msgs/Waypoint[] waypoints
+cpr_navigation_msgs/Waypoint[] waypoints
 
 # Configuration parameters for the mission
 # Additional details TBD
