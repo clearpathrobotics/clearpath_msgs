@@ -6,4 +6,4 @@
 string data
 ---
 # The state of the database after importing the data
-clearpath_mission_manager_msgs/StorageState state
+cpr_mission_manager_msgs/StorageState state

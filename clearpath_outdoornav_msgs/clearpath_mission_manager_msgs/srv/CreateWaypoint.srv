@@ -24,4 +24,4 @@ string[] task_ids
 string[] assign_to
 ---
 # The resulting Waypoint with an auto-generated UUID is returned
-clearpath_navigation_msgs/Waypoint result
+cpr_navigation_msgs/Waypoint result

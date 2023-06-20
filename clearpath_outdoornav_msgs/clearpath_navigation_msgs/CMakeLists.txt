@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(clearpath_navigation_msgs)
+project(cpr_navigation_msgs)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED

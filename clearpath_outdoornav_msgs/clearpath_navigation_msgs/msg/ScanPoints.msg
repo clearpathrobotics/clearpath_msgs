@@ -3,4 +3,4 @@
 std_msgs/Header header
 
 string[] frames_vector
-clearpath_navigation_msgs/PointVector[] cloud_vector
+cpr_navigation_msgs/PointVector[] cloud_vector
