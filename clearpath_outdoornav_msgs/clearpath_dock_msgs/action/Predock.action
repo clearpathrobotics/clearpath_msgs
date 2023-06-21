@@ -1,8 +1,0 @@
-#goal definition
-bool predock_enabled
----
-#result definition
-bool success
----
-#feedback
-string state

@@ -5,7 +5,7 @@ project(cpr_localization_msgs)
 find_package(catkin REQUIRED
   COMPONENTS
     actionlib_msgs
-		geometry_msgs
+    geometry_msgs
     message_generation
     sensor_msgs
     std_msgs
@@ -13,29 +13,30 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
-    GPSStatus.msg
+    GNSSStatus.msg
     LocalizationStatus.msg
     SurveyProperties.msg
 )
 
 ## Add actions
 add_action_files(
-	DIRECTORY
+  DIRECTORY
     action
-	FILES
+  FILES
     SurveyBaseStation.action
 )
 
 add_service_files(
   FILES
-		ConvertLatLonToCartesian.srv
+    ConvertLatLonToCartesian.srv
+    ResetLocalization.srv
     SetDatum.srv
 )
 
 generate_messages(
   DEPENDENCIES
     actionlib_msgs
-		geometry_msgs
+    geometry_msgs
     sensor_msgs
     std_msgs
 )
@@ -43,7 +44,7 @@ generate_messages(
 catkin_package(
   CATKIN_DEPENDS
     actionlib_msgs
-		geometry_msgs
+    geometry_msgs
     message_runtime
     sensor_msgs
     std_msgs

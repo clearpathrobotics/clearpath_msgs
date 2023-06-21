@@ -11,7 +11,7 @@
   <exec_depend>cpr_dock_msgs</exec_depend>
   <exec_depend>cpr_localization_msgs</exec_depend>
   <exec_depend>cpr_navigation_msgs</exec_depend>
-  <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>cpr_platform_msgs</exec_depend>
   <exec_depend>cpr_safety_msgs</exec_depend>
 
   <export>

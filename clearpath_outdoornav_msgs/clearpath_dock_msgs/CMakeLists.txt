@@ -5,16 +5,25 @@ project(cpr_dock_msgs)
 find_package(catkin REQUIRED
   COMPONENTS
     actionlib_msgs
-    geographic_msgs
-    geometry_msgs
     message_generation
+    geometry_msgs
     std_msgs
 )
 
 add_message_files(
   FILES
-    DockLocation.msg
+    DockInfo.msg
     DockProperties.msg
+    DockState.msg
+    TargetTrackerState.msg
+)
+
+add_service_files(
+  FILES
+    AddDock.srv
+    RemoveDock.srv
+    SetDockLocationById.srv
+    SetDockLocationByName.srv
 )
 
 ## Add actions
@@ -22,25 +31,20 @@ add_action_files(
   DIRECTORY
     action
   FILES
-    ApproachDock.action
     Dock.action
-    Predock.action
+    Undock.action
 )
 
 generate_messages(
   DEPENDENCIES
     actionlib_msgs
-    geographic_msgs
     geometry_msgs
     std_msgs
 )
 
 catkin_package(
   CATKIN_DEPENDS
-    geographic_msgs
-    geometry_msgs
     message_runtime
-    std_msgs
 )
 
 install(FILES

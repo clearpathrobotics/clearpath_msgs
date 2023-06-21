@@ -1,4 +1,4 @@
-name: clearpath_msgs_ci
+name: cpr_msgs_ci
 
 on:
   push:
