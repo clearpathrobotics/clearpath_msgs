@@ -10,4 +10,4 @@ uint8 minute
 uint8 second
 
 # Milliseconds, 0-999 (not typically needed)
-uint16 milliseconds
+uint16 millisecond

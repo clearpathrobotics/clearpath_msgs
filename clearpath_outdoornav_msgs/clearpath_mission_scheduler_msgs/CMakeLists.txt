@@ -20,6 +20,8 @@ add_service_files(
   FILES
   CreateSchedule.srv
   EnableDisableSchedule.srv
+  GetAllSchedules.srv
+  GetSchedule.srv
   UpdateSchedule.srv
 )
 

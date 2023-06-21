@@ -1,0 +1,6 @@
+# A dock information message that will be added to the docks list
+string uuid
+string name
+---
+# True if the location was updated/added successfully, otherwise False
+bool success

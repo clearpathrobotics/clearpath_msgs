@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>clearpath_msgs</name>
+  <name>cpr_msgs</name>
   <version>0.0.0</version>
   <description>Metapackage for Clearapth messages.</description>
   <license>BSD</license>
@@ -11,7 +11,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <!-- Platform messages -->
-  <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>cpr_platform_msgs</exec_depend>
   <exec_depend>dingo_msgs</exec_depend>
   <exec_depend>husky_msgs</exec_depend>
   <exec_depend>jackal_msgs</exec_depend>
@@ -26,7 +26,7 @@
   <exec_depend>cpr_mission_manager_msgs</exec_depend>
   <exec_depend>cpr_navigation_msgs</exec_depend>
   <exec_depend>cpr_outdoornav_msgs</exec_depend>
-  <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>cpr_platform_msgs</exec_depend>
   <exec_depend>cpr_safety_msgs</exec_depend>
 
   <!-- Autonomy task action dependencies -->

@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(clearpath_msgs)
+project(cpr_msgs)
 find_package(catkin REQUIRED)
 catkin_metapackage()

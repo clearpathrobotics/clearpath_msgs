@@ -3,7 +3,6 @@ uint8             CUBIC_SPLINE_SMOOTHER = 1
 uint8             DUBINS_SMOOTHER = 2
 uint8             GENERIC_SMOOTHER = 3
 
-
 nav_msgs/Path     path
 uint8             type
 
