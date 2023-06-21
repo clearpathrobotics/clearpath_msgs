@@ -1,0 +1,6 @@
+# The UUID of the dock we're setting a location for
+# If empty, a new dock is to be added with the location 
+string uuid
+---
+# True if the location was updated/added successfully, otherwise False
+bool success

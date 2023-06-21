@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>cpr_mission_scheduler_msgs</name>
+  <name>clearpath_mission_scheduler_msgs</name>
   <version>0.7.0</version>
   <description>The cpr_mission_scheduler_msgs package</description>
 

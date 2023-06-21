@@ -18,7 +18,7 @@ string name
 string uuid
 
 # The time that this mission starts every day
-cpr_mission_scheduler_msgs/UtcTime start_time
+clearpath_mission_scheduler_msgs/UtcTime start_time
 
 # Either MODE_ONCE or MODE_LOOP to indicate the execution mode
 uint8 mode

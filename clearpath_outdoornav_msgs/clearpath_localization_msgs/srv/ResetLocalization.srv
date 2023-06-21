@@ -1,0 +1,6 @@
+# Service definition to set the datum with a latitude (lat) and longitude (lon)
+
+bool require_gnss
+uint32 gnss_samples
+---
+bool success

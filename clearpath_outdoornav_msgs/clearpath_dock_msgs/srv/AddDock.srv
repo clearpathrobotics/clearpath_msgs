@@ -1,0 +1,5 @@
+# A dock information message that will be added to the docks list
+cpr_dock_msgs/DockInfo dock
+---
+# True if the location was updated/added successfully, otherwise False
+bool success
