@@ -1,0 +1,6 @@
+# The ID of the next schedule to start
+# Empty if nothing is scheduled
+string uuid
+
+# The time until the schedule starts (rounded to the nearest second)
+duration time_to_start
