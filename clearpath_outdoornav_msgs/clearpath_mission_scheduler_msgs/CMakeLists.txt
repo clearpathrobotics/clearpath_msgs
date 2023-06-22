@@ -11,6 +11,7 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
+    NextSchedule.msg
     Schedule.msg
     StorageState.msg
     UtcTime.msg
@@ -21,6 +22,7 @@ add_service_files(
   CreateSchedule.srv
   EnableDisableSchedule.srv
   GetAllSchedules.srv
+  GetNextSchedule.srv
   GetSchedule.srv
   UpdateSchedule.srv
 )
