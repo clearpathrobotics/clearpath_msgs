@@ -20,7 +20,7 @@ add_message_files(
 add_service_files(
   FILES
   CreateSchedule.srv
-  EnableDisableSchedule.srv
+  EnableSchedule.srv
   GetAllSchedules.srv
   GetNextSchedule.srv
   GetSchedule.srv
