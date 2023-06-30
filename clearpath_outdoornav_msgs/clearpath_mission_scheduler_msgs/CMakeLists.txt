@@ -27,6 +27,14 @@ add_service_files(
   UpdateSchedule.srv
 )
 
+## Add actions
+add_action_files(
+  DIRECTORY
+    action
+  FILES
+    RunNow.action
+)
+
 generate_messages(
   DEPENDENCIES
     cpr_mission_manager_msgs
