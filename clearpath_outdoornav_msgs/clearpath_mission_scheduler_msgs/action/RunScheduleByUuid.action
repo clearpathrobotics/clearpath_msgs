@@ -11,7 +11,7 @@ duration delay
 bool success
 ---
 # The ID of the mission we're executing right now
-string current_mission_id
+string current_mission_uuid
 
 # One of "waiting" or "executing" indicating what the schedule is doing
 string state
