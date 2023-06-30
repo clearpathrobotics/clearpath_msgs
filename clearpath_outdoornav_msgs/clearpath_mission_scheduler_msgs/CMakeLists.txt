@@ -32,7 +32,7 @@ add_action_files(
   DIRECTORY
     action
   FILES
-    RunNow.action
+    RunScheduleByUuid.action
 )
 
 generate_messages(
