@@ -7,15 +7,15 @@ string name
 string uuid
 
 # The ROS action that this task executes
-string service_call
+string action_server_name
 
 # The version of this task
 string version
 
-# Numerical/boolean data to be passed to the service_call
+# Numerical/boolean data to be passed to the action_server_name
 # The exact meaning of these values is dependent on the underlying service
 float64[] floats
 
-# String data to be passed to the service_call
+# String data to be passed to the action_server_name
 # The exact meaning of these values is dependent on the underlying service
 string[] strings

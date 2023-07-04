@@ -2,15 +2,15 @@
 string name
 
 # The ROS Action to invoke to execute the task
-string service_call
+string action_server_name
 
 # The version of the task
 string version
 
-# The numerical arguments to pass to the service_call
+# The numerical arguments to pass to the action_server_name
 float64[] floats
 
-# The string arguments to pass to the service_call
+# The string arguments to pass to the action_server_name
 string[] strings
 
 # Optional list of Waypoint UUIDs to assign this task to automatically
