@@ -19,6 +19,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  CloneSchedule.srv
   CreateSchedule.srv
   EnableSchedule.srv
   GetAllSchedules.srv
