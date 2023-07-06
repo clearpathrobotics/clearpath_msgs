@@ -1,5 +1,3 @@
-# The x and y coordinates of a specific waypoint in map (utm) coordinates.
-
 string name
 string uuid
 
