@@ -22,9 +22,11 @@ add_service_files(
   CloneSchedule.srv
   CreateSchedule.srv
   EnableSchedule.srv
+  ExportData.srv
   GetAllSchedules.srv
   GetNextSchedule.srv
   GetSchedule.srv
+  ImportData.srv
   UpdateSchedule.srv
 )
 
