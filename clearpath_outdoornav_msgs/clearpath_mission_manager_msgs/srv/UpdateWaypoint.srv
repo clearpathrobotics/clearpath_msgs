@@ -23,4 +23,4 @@ float64 yaw_tolerance
 string[] task_ids
 ---
 # The edited Waypoint, or null if no Waypoint with the given ID exists
-cpr_navigation_msgs/Waypoint result
+clearpath_navigation_msgs/Waypoint result

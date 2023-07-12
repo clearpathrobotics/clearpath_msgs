@@ -1,4 +1,6 @@
 # Action definition for undocking a Clearpath UGV from one of its charging docks.
+
+# goal
 ---
 # result
 bool success

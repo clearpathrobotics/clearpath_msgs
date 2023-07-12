@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(cpr_platform_msgs)
+project(clearpath_platform_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   genmsg

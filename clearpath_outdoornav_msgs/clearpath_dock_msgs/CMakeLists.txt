@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(cpr_dock_msgs)
+project(clearpath_dock_msgs)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED

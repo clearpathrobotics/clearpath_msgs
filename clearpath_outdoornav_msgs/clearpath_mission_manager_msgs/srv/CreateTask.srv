@@ -18,4 +18,4 @@ string[] strings
 string[] assign_to
 ---
 # The resulting Task with an auto-generated UUID is returned
-cpr_navigation_msgs/Task result
+clearpath_navigation_msgs/Task result

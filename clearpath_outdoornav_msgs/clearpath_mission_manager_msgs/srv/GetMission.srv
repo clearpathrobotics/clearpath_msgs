@@ -2,4 +2,4 @@
 string uuid
 ---
 # The Mission with the given ID, or null if no Mission with that ID exists
-cpr_navigation_msgs/Mission mission
+clearpath_navigation_msgs/Mission mission

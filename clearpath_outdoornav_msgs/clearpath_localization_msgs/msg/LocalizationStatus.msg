@@ -1,4 +1,4 @@
-# Localization status message for all sources of localization
+# # Message definition containing localization status information for all sources of localization
 
 std_msgs/Header header
 # the localization accuracy as a percentage value (covariance?)
