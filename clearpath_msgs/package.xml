@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>cpr_msgs</name>
+  <name>clearpath_msgs</name>
   <version>0.9.0</version>
   <description>Metapackage for Clearapth messages.</description>
   <license>BSD</license>
@@ -11,7 +11,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <!-- Platform messages -->
-  <exec_depend>cpr_platform_msgs</exec_depend>
+  <exec_depend>clearpath_platform_msgs</exec_depend>
   <exec_depend>dingo_msgs</exec_depend>
   <exec_depend>husky_msgs</exec_depend>
   <exec_depend>jackal_msgs</exec_depend>
@@ -19,15 +19,15 @@
   <exec_depend>warthog_msgs</exec_depend>
 
   <!-- OutdoorNav dependencies -->
-  <exec_depend>cpr_configuration_msgs</exec_depend>
-  <exec_depend>cpr_control_msgs</exec_depend>
-  <exec_depend>cpr_dock_msgs</exec_depend>
-  <exec_depend>cpr_localization_msgs</exec_depend>
-  <exec_depend>cpr_mission_manager_msgs</exec_depend>
-  <exec_depend>cpr_navigation_msgs</exec_depend>
-  <exec_depend>cpr_outdoornav_msgs</exec_depend>
-  <exec_depend>cpr_platform_msgs</exec_depend>
-  <exec_depend>cpr_safety_msgs</exec_depend>
+  <exec_depend>clearpath_configuration_msgs</exec_depend>
+  <exec_depend>clearpath_control_msgs</exec_depend>
+  <exec_depend>clearpath_dock_msgs</exec_depend>
+  <exec_depend>clearpath_localization_msgs</exec_depend>
+  <exec_depend>clearpath_mission_manager_msgs</exec_depend>
+  <exec_depend>clearpath_mission_scheduler_msgs</exec_depend>
+  <exec_depend>clearpath_navigation_msgs</exec_depend>
+  <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>clearpath_safety_msgs</exec_depend>
 
   <!-- Autonomy task action dependencies -->
   <exec_depend>audio_recorder_msgs</exec_depend>

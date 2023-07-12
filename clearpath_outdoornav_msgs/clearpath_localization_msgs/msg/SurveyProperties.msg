@@ -1,4 +1,4 @@
-# Base station survey properties
+# Message definition containing the base station survey properties
 
 # ISO 8601 date/time format of last successfull base station survey
 string last_survey_time

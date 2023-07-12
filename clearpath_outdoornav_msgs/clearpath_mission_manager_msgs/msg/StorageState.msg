@@ -6,10 +6,10 @@
 # - a Task can be orphaned (i.e. not included in any Waypoints)
 
 # All missions defined in the database
-cpr_navigation_msgs/Mission[] missions
+clearpath_navigation_msgs/Mission[] missions
 
 # All waypoints defined in the database
-cpr_navigation_msgs/Waypoint[] waypoints
+clearpath_navigation_msgs/Waypoint[] waypoints
 
 # All tasks defined in the database
-cpr_navigation_msgs/Task[] tasks
+clearpath_navigation_msgs/Task[] tasks

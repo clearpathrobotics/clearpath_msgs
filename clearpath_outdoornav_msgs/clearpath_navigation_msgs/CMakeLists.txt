@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(cpr_navigation_msgs)
+project(clearpath_navigation_msgs)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED
@@ -13,7 +13,6 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
-    CurrentGoalInfo.msg
     DistanceToGoal.msg
     Mission.msg
 		MissionStatus.msg

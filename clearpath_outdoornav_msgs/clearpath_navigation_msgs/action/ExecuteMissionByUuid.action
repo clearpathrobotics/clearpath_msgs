@@ -1,4 +1,4 @@
-# Action definition for executing a mission by name
+# Action definition for executing a mission by uuid
 
 # goal
 string uuid

@@ -5,4 +5,4 @@ std_msgs/Header header
 string name
 string uuid
 
-cpr_navigation_msgs/WaypointStatus[] waypoints
+clearpath_navigation_msgs/WaypointStatus[] waypoints

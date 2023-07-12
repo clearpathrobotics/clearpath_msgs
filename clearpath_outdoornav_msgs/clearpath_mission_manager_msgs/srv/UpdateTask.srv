@@ -17,4 +17,4 @@ float64[] floats
 string[] strings
 ---
 # The edited Task, or null if no Task with the given ID exists
-cpr_navigation_msgs/Task result
+clearpath_navigation_msgs/Task result

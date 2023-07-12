@@ -4,7 +4,7 @@ project(cpr_mission_scheduler_msgs)
 find_package(catkin REQUIRED
   COMPONENTS
     cpr_mission_manager_msgs
-    cpr_navigation_msgs
+    clearpath_navigation_msgs
     message_generation
     std_msgs
 )
@@ -41,7 +41,7 @@ add_action_files(
 generate_messages(
   DEPENDENCIES
     cpr_mission_manager_msgs
-    cpr_navigation_msgs
+    clearpath_navigation_msgs
     std_msgs
 )
 
