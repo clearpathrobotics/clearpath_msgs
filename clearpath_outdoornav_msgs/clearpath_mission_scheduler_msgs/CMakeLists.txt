@@ -40,7 +40,7 @@ add_action_files(
 
 generate_messages(
   DEPENDENCIES
-    cpr_mission_manager_msgs
+    clearpath_mission_manager_msgs
     clearpath_navigation_msgs
     std_msgs
 )

@@ -6,7 +6,7 @@ string uuid
 string name
 
 # The time that this mission starts every day
-cpr_mission_scheduler_msgs/UtcTime start_time
+clearpath_mission_scheduler_msgs/UtcTime start_time
 
 # Either Schedule.MODE_ONCE, Schedule.MODE_LOOP, OR Schedule.MODE_TRANSIENT to indicate the execution mode
 uint8 mode
@@ -35,4 +35,4 @@ bool enabled
 ---
 
 # The modified mission, as-saved on disk
-cpr_mission_scheduler_msgs/Schedule result
+clearpath_mission_scheduler_msgs/Schedule result
