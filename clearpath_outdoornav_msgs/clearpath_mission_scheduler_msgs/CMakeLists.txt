@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(cpr_mission_scheduler_msgs)
+project(clearpath_mission_scheduler_msgs)
 
 find_package(catkin REQUIRED
   COMPONENTS
-    cpr_mission_manager_msgs
+    clearpath_mission_manager_msgs
     clearpath_navigation_msgs
     message_generation
     std_msgs
