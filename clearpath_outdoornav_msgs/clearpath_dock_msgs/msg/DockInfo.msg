@@ -1,4 +1,4 @@
-# Message definition containing the information of a single dock. This includes identifiers, lat/lon and orientation of the location of a dock.
+# Message definition containing the information of a single dock. This includes identifiers, lat/lon and orientation of the dock.
 
 string name
 string uuid

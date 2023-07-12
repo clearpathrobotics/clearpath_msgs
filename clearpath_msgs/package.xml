@@ -19,8 +19,8 @@
   <exec_depend>clearpath_dock_msgs</exec_depend>
   <exec_depend>clearpath_localization_msgs</exec_depend>
   <exec_depend>clearpath_mission_manager_msgs</exec_depend>
+  <exec_depend>clearpath_mission_scheduler_msgs</exec_depend>
   <exec_depend>clearpath_navigation_msgs</exec_depend>
-  <exec_depend>clearpath_outdoornav_msgs</exec_depend>
   <exec_depend>clearpath_platform_msgs</exec_depend>
   <exec_depend>clearpath_safety_msgs</exec_depend>
 

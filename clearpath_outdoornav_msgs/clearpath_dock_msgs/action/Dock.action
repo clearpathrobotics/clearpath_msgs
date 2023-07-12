@@ -1,4 +1,4 @@
-# Action definition for sending a Clearpath UGV to one of its charging dock.
+# Action definition for sending a Clearpath UGV to one of its charging docks.
 
 # goal
 string uuid

@@ -14,7 +14,7 @@
   <depend>actionlib</depend>
   <depend>actionlib_msgs</depend>
   <depend>cpr_mission_manager_msgs</depend>
-  <depend>cpr_navigation_msgs</depend>
+  <depend>clearpath_navigation_msgs</depend>
   <depend>message_generation</depend>
   <depend>message_runtime</depend>
   <depend>std_msgs</depend>

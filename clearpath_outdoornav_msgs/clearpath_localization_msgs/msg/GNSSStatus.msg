@@ -1,4 +1,4 @@
-# GNSS receiver status message
+# Message definition containing the GNSS receiver status information.
 
 uint8 POSITION_RECEIVER = 0
 uint8 HEADING_RECEIVER = 1

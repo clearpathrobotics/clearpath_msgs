@@ -1,4 +1,4 @@
-# Service definition to set the datum with a latitude (lat) and longitude (lon)
+# Service definition to convert the Lat/Lon to Cartesian coordinates
 
 sensor_msgs/NavSatFix msg
 ---

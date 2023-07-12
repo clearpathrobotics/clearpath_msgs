@@ -1,6 +1,7 @@
-# The UUID of the dock we're setting a location for
-# If empty, a new dock is to be added with the location 
+# Service definition to update the location of an existing dock by name. A dock with the name needs to have been previously created 
+
+# The semantic name of the dock whose location we are updating
 string name
 ---
-# True if the location was updated/added successfully, otherwise False
+# True if the location was updated successfully, otherwise False
 bool success

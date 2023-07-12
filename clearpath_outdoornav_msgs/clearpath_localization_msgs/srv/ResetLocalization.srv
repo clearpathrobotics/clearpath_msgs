@@ -1,4 +1,4 @@
-# Service definition to set the datum with a latitude (lat) and longitude (lon)
+# Service definition to reset the localization
 
 bool require_gnss
 uint32 gnss_samples
