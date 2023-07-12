@@ -6,4 +6,4 @@ string new_name
 ---
 # The cloned schedule
 # This should be identical to the original, but with a new name and new UUID
-cpr_mission_scheduler_msgs/Schedule schedule
+clearpath_mission_scheduler_msgs/Schedule schedule
