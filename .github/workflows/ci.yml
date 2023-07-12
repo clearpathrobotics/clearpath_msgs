@@ -3,7 +3,7 @@ name: cpr_msgs_ci
 on:
   push:
     branches:
-      - 'noetic-devel'
+      - '!noetic-devel'
   pull_request:
   schedule:
     - cron: "0 0 * * *" # every day at midnight
