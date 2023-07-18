@@ -14,6 +14,7 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     DistanceToGoal.msg
+    Metrics.msg
     Mission.msg
 		MissionStatus.msg
 		MotionState.msg
