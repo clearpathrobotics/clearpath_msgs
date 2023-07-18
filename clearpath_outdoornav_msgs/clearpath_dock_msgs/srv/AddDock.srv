@@ -5,3 +5,4 @@ clearpath_dock_msgs/DockInfo dock
 ---
 # True if the dock has been added successfully, otherwise False
 bool success
+string message

@@ -6,3 +6,4 @@ string name
 ---
 # True if the dock has been removed successfully, otherwise False
 bool success
+string message
