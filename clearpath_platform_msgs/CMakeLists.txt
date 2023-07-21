@@ -24,6 +24,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/PlatformID.msg
   msg/Power.msg
   msg/RGB.msg
+  msg/RYG.msg
+  msg/StackLightState.msg
   msg/Status.msg
   msg/StopStatus.msg
   srv/ConfigureMcu.srv
