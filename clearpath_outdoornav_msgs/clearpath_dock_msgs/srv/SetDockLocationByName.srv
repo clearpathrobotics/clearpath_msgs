@@ -5,3 +5,4 @@ string name
 ---
 # True if the location was updated successfully, otherwise False
 bool success
+string message
