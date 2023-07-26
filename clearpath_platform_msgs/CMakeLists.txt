@@ -16,6 +16,8 @@ add_message_files(
   PlatformID.msg
   Power.msg
   RGB.msg
+  RYG.msg
+  StackLightState.msg
   Status.msg
   StopStatus.msg
 )
