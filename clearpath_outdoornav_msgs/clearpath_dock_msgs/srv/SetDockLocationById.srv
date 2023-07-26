@@ -6,3 +6,4 @@ string uuid
 ---
 # True if the location was updated/added successfully, otherwise False
 bool success
+string message
