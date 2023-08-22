@@ -2,8 +2,8 @@
 Changelog for package clearpath_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.1 (2023-08-22)
+------------------
 * Add message field to service response
 * Added error message to service response
 * Contributors: José Mastrangelo

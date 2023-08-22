@@ -2,8 +2,8 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.1 (2023-08-22)
+------------------
 * Add comments to Waypoint message to match documentation
 * Added Metrics.msg
 * Contributors: Chris Iverach-Brereton, José Mastrangelo
