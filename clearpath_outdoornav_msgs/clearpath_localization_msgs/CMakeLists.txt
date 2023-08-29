@@ -28,6 +28,7 @@ add_action_files(
 
 add_service_files(
   FILES
+    ConvertCartesianToLatLon.srv
     ConvertLatLonToCartesian.srv
     ResetLocalization.srv
     SetDatum.srv
