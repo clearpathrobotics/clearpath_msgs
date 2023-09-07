@@ -23,6 +23,7 @@ add_service_files(
     DeleteById.srv
     DeleteEverything.srv
     ExportData.srv
+    ExportToKml.srv
     GetAllMissions.srv
     GetAllTasks.srv
     GetAllWaypoints.srv

@@ -1,0 +1,5 @@
+# The UUID of the mission to export
+string uuid
+---
+# The KML string representation of the mission's waypoints
+string kml
