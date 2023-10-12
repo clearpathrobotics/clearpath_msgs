@@ -1,6 +1,4 @@
-# A base-64 encoded string representing a compressed version of
-# the database contents.
-# The data itself is a gzipped JSON string representing the database contents
+# A JSON string representing the database contents.
 # This is the same as the data output by the ExportData service, and is intended
 # to be used to restore the database to a previous state
 string data
