@@ -15,7 +15,17 @@ string[] strings
 
 # Optional list of Waypoint UUIDs to assign this task to automatically
 # The new task will be appended to the end of the existing Waypoints
-string[] assign_to
+string[] assign_to_wp
+
+# Optional list of Mission UUIDs to assign this task to automatically
+# The new task will be appended to the end of the existing on_start tasks
+# associated with the specified mission
+string[] assign_on_start
+
+# Optional list of Waypoint UUIDs to assign this task to automatically
+# The new task will be appended to the end of the existing on_stop tasks
+# associated with the specified mission
+string[] assign_on_stop
 ---
 # The resulting Task with an auto-generated UUID is returned
 clearpath_navigation_msgs/Task result
