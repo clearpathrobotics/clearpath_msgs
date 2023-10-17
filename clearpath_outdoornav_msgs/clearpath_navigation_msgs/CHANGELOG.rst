@@ -2,8 +2,8 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.2 (2023-10-17)
+------------------
 * [ONAV-1546] Add autonomy API option to start mission from current position
   - Changes to the ExecuteMissionByUuid.action and Mission.action to support 'Resuming' missions and starting missions from specified waypoints.
   - The combination of the 'from_start' and 'start_waypoint' field determine the behavior:

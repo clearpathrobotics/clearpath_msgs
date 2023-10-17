@@ -2,8 +2,8 @@
 Changelog for package clearpath_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.2 (2023-10-17)
+------------------
 * Fix over & underline length in changelogs
 * Contributors: Chris Iverach-Brereton
 
