@@ -2,6 +2,12 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Use raw JSON strings for import & export; don't bother gzipping & base-64 encoding them
+* Fix over & underline length in changelogs
+* Contributors: Chris Iverach-Brereton
+
 0.9.1 (2023-08-22)
 ------------------
 

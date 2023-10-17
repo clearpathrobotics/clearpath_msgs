@@ -2,6 +2,13 @@
 Changelog for package clearpath_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Use raw JSON strings for import & export; don't bother gzipping & base-64 encoding them
+* Add import/export services for docking
+* Fix over & underline length in changelogs
+* Contributors: Chris Iverach-Brereton
+
 0.9.1 (2023-08-22)
 ------------------
 * Add message field to service response
