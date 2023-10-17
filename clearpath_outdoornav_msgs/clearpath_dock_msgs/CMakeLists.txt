@@ -21,6 +21,8 @@ add_message_files(
 add_service_files(
   FILES
     AddDock.srv
+    ExportData.srv
+    ImportData.srv
     RemoveDock.srv
     SetDockLocationById.srv
     SetDockLocationByName.srv
