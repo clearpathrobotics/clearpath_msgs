@@ -2,6 +2,12 @@
 Changelog for package clearpath_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add: .srv definition for ConvertCartesianToLatLon service
+* Fix over & underline length in changelogs
+* Contributors: Chris Iverach-Brereton, Stephen Phillips, Jose Mastrangelo
+
 0.9.1 (2023-08-22)
 ------------------
 
