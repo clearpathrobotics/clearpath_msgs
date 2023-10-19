@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>clearpath_dock_msgs</name>
-  <version>0.9.2</version>
+  <version>0.9.3</version>
   <description>ROS package containing the message definitions for the Clearpath Robotics OutdoorNav dock module.</description>
   <maintainer email="jmastrangelo@clearpathrobotics.com">José Mastrangelo</maintainer>
   <license>Proprietary</license>
