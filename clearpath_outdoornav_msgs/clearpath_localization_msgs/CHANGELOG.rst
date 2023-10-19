@@ -2,6 +2,9 @@
 Changelog for package clearpath_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.2 (2023-10-17)
 ------------------
 * Add: .srv definition for ConvertCartesianToLatLon service

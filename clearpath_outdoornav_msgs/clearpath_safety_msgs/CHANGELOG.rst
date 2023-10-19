@@ -2,6 +2,11 @@
 Changelog for package clearpath_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added trigger_type field and include in message generation
+* Contributors: José Mastrangelo
+
 0.9.2 (2023-10-17)
 ------------------
 * Fix over & underline length in changelogs

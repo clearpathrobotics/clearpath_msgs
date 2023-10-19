@@ -2,6 +2,9 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.2 (2023-10-17)
 ------------------
 * [ONAV-1546] Add autonomy API option to start mission from current position
