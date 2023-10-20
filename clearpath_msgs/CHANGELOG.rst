@@ -2,8 +2,8 @@
 Changelog for package clearpath_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.4 (2023-10-20)
+------------------
 * Remove dependencies on packages not released to OSRF
 * Contributors: Chris Iverach-Brereton
 
