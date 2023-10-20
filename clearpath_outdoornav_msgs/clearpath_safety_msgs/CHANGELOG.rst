@@ -2,6 +2,9 @@
 Changelog for package clearpath_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.3 (2023-10-19)
 ------------------
 * Added trigger_type field and include in message generation

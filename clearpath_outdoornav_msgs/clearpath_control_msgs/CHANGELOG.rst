@@ -2,6 +2,9 @@
 Changelog for package clearpath_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.3 (2023-10-19)
 ------------------
 
