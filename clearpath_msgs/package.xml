@@ -30,9 +30,14 @@
   <exec_depend>clearpath_safety_msgs</exec_depend>
 
   <!-- Autonomy task action dependencies -->
+  <!--
+    DISABLED
+    Eventually these packages will be bloomed to OSRF's build farm, but for now
+    they're not explicitly necessary
   <exec_depend>audio_recorder_msgs</exec_depend>
   <exec_depend>ptz_action_server_msgs</exec_depend>
   <exec_depend>video_recorder_msgs</exec_depend>
+  -->
 
   <export>
     <metapackage />
