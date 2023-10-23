@@ -20,7 +20,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/DriveFeedback.msg
   msg/Fans.msg
   msg/Feedback.msg
-  msg/HMI.msg
   msg/Lights.msg
   msg/Power.msg
   msg/RGB.msg
