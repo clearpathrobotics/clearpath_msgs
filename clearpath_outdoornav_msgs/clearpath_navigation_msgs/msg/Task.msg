@@ -19,3 +19,7 @@ float64[] floats
 # String data to be passed to the action_server_name
 # The exact meaning of these values is dependent on the underlying service
 string[] strings
+
+# Boolean value which determines whether a mission using this task can continue
+# if this task fails to execute
+bool allow_failure

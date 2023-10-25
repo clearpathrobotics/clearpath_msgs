@@ -13,6 +13,10 @@ float64[] floats
 # The string arguments to pass to the action_server_name
 string[] strings
 
+# Boolean value which determines whether a mission using this task can continue
+# if this task fails to execute
+bool allow_failure
+
 # Optional list of Waypoint UUIDs to assign this task to automatically
 # The new task will be appended to the end of the existing Waypoints
 string[] assign_to_wp
