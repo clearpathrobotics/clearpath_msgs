@@ -2,6 +2,11 @@
 Changelog for package clearpath_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge remote-tracking branch 'origin/noetic-devel' into ONAV-1771/on_start_stop_tasks
+* Contributors: Stephen Phillips
+
 0.9.4 (2023-10-20)
 ------------------
 
