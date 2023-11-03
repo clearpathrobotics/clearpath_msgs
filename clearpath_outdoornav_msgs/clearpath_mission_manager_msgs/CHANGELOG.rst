@@ -2,8 +2,8 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.5 (2023-11-03)
+------------------
 * [ONAV-1772] Add 'allow_failure' boolean to Task message type
   - When set to True, any missions that execute this task will be allowed to continue if the task fails
 * Merge pull request `#18 <https://github.com/clearpathrobotics/clearpath_msgs/issues/18>`_ from stephen-cpr/ONAV-1771/on_start_stop_tasks

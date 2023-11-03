@@ -2,8 +2,8 @@
 Changelog for package clearpath_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.5 (2023-11-03)
+------------------
 * Merge remote-tracking branch 'origin/noetic-devel' into ONAV-1771/on_start_stop_tasks
 * Contributors: Stephen Phillips
 
