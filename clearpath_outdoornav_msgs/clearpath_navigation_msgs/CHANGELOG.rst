@@ -2,6 +2,22 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [ONAV-1772] Add 'allow_failure' boolean to Task message type
+  - When set to True, any missions that execute this task will be allowed to continue if the task fails
+* Merge pull request `#18 <https://github.com/clearpathrobotics/clearpath_msgs/issues/18>`_ from stephen-cpr/ONAV-1771/on_start_stop_tasks
+  [ONAV-1771] Add support for on_start / on_stop Mission Tasks
+* Merge remote-tracking branch 'origin/noetic-devel' into ONAV-1771/on_start_stop_tasks
+* [ONAV-1771] Add support for on_start / on_stop Mission Tasks
+  - clearpath_navigation_msgs/Mission.msg has been updated to include 'on_start' and 'on_stop' Task arrays which are executed when the mission begins and ends respectively (on_stop Tasks will execute regardless of mission failure or success)
+  - The CreateTask service has been updated to include 'assign_on_start' and 'assign_on_stop' fields (similar functionality as the 'assign_to' field)
+  - The 'assign_to' field of the CreateTask service has been updated to 'assign_to_wp' to distinguish it from assign_on_start/assign_on_stop
+  - Added the following service endpoints to mission_manager (using the AddRemoveById.srv type):
+  - ~add_task_to_start & ~add_task_to_stop - Adds a task to the on_start/on_stop array for given mission
+  - ~remove_task_from_start & ~remove_task_from_stop - Removes a task from the on_start/on_stop array for given mission
+* Contributors: Stephen Phillips, Tony Baltovski
+
 0.9.4 (2023-10-20)
 ------------------
 
