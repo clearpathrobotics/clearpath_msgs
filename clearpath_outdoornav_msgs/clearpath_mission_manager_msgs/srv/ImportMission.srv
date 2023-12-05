@@ -1,0 +1,5 @@
+# The Mission to import.  All UUIDs will be re-generated
+clearpath_navigation_msgs/Mission mission
+---
+# The generated mission with new UUIDs
+clearpath_navigation_msgs/Mission mission

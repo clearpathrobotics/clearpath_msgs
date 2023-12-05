@@ -31,6 +31,7 @@ add_service_files(
     GetTask.srv
     GetWaypoint.srv
     ImportData.srv
+    ImportMission.srv
     UpdateMission.srv
     UpdateTask.srv
     UpdateWaypoint.srv
