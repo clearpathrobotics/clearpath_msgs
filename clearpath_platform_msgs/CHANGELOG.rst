@@ -2,6 +2,15 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added charger connected status to Power message
+* Removed 48V current
+* Removed HMI msg
+* Renamed platform constants to use platform code
+  Added HMI message
+* Contributors: Roni Kreinin
+
 0.0.4 (2023-06-20)
 ------------------
 * Removed domain id and namespace services

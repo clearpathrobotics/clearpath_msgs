@@ -2,6 +2,9 @@
 Changelog for package clearpath_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.4 (2023-06-20)
 ------------------
 
