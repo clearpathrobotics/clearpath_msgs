@@ -2,8 +2,8 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2023-12-06)
+------------------
 * Added charger connected status to Power message
 * Removed 48V current
 * Removed HMI msg
