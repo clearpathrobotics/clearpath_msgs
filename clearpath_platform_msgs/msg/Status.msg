@@ -6,8 +6,8 @@ std_msgs/Header header
 # Robot Hardware ID
 string hardware_id
 
-# Firmware commit hash
-string firmware_commit
+# Firmware version
+string firmware_version
 
 # Times since MCU power-on.
 builtin_interfaces/Duration mcu_uptime
