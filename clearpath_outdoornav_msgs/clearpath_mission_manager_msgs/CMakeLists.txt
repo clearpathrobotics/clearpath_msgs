@@ -22,6 +22,7 @@ add_service_files(
     CreateWaypoint.srv
     DeleteById.srv
     DeleteEverything.srv
+    DeleteMultiple.srv
     ExportData.srv
     GetAllMissions.srv
     GetAllTasks.srv
