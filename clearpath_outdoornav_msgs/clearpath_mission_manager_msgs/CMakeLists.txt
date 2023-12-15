@@ -22,6 +22,7 @@ add_service_files(
     CreateWaypoint.srv
     DeleteById.srv
     DeleteEverything.srv
+    DeleteMultiple.srv
     ExportData.srv
     GetAllMissions.srv
     GetAllTasks.srv
@@ -31,6 +32,7 @@ add_service_files(
     GetTask.srv
     GetWaypoint.srv
     ImportData.srv
+    ImportMission.srv
     UpdateMission.srv
     UpdateTask.srv
     UpdateWaypoint.srv
