@@ -2,6 +2,9 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.5 (2023-11-03)
 ------------------
 * [ONAV-1772] Add 'allow_failure' boolean to Task message type
