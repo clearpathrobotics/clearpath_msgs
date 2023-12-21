@@ -2,8 +2,8 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.6 (2023-12-21)
+------------------
 * Add a new service for deleting multiple IDs at once
 * Add a new service to import entire mission objects, including their associated tasks & waypoints
 * Contributors: Chris Iverach-Brereton
