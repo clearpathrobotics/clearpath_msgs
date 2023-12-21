@@ -2,6 +2,12 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add a new service for deleting multiple IDs at once
+* Add a new service to import entire mission objects, including their associated tasks & waypoints
+* Contributors: Chris Iverach-Brereton
+
 0.9.5 (2023-11-03)
 ------------------
 * [ONAV-1772] Add 'allow_failure' boolean to Task message type
