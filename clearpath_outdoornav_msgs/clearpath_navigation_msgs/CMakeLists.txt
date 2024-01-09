@@ -14,6 +14,10 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     DistanceToGoal.msg
+    NetworkEdge.msg
+    NetworkMap.msg
+    NetworkMission.msg
+    NetworkPoint.msg
     Metrics.msg
     Mission.msg
     MissionStatus.msg
