@@ -4,5 +4,5 @@
 string uuid
 
 # The location of this point on the map
-float32 latitude
-float32 longitude
+float64 latitude
+float64 longitude
