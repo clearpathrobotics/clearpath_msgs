@@ -13,3 +13,9 @@ clearpath_navigation_msgs/Waypoint[] waypoints
 
 # All tasks defined in the database
 clearpath_navigation_msgs/Task[] tasks
+
+# All network of paths missions in the database
+clearpath_navigation_msgs/NetworkMission[] network_missions
+
+# All network of paths maps in the database
+clearpath_navigation_msgs/NetworkMap[] network_maps
