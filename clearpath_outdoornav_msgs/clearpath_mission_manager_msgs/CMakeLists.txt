@@ -10,6 +10,7 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
+    NetworkEdgeReq.msg
     StorageState.msg
 )
 
@@ -18,6 +19,7 @@ add_service_files(
     AddRemoveById.srv
     CloneMission.srv
     CreateMission.srv
+    CreateNetworkMap.srv
     CreateTask.srv
     CreateWaypoint.srv
     DeleteById.srv
