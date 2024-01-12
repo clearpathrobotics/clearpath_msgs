@@ -1,5 +1,3 @@
-string name
-
 string start_point_id
 string end_point_id
 

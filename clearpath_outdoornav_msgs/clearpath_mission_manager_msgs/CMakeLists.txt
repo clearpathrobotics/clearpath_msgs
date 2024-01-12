@@ -27,10 +27,12 @@ add_service_files(
     DeleteMultiple.srv
     ExportData.srv
     GetAllMissions.srv
+    GetAllNetworkMaps.srv
     GetAllTasks.srv
     GetAllWaypoints.srv
     GetEverything.srv
     GetMission.srv
+    GetNetworkMap.srv
     GetTask.srv
     GetWaypoint.srv
     ImportData.srv
