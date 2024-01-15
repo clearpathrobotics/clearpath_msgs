@@ -16,6 +16,8 @@ add_message_files(
 
 add_service_files(
   FILES
+    AddNetworkEdge.srv
+    AddNetworkPoint.srv
     AddRemoveById.srv
     CloneMission.srv
     CreateMission.srv

@@ -1,0 +1,11 @@
+# The location of this point on the map
+float64 latitude
+float64 longitude
+
+# The UUID of the map we're adding this point to
+string map_id
+
+---
+
+# The added point, with generated UUID
+clearpath_navigation_msgs/NetworkPoint point
