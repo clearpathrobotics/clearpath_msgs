@@ -40,6 +40,10 @@ add_service_files(
     ImportData.srv
     ImportMission.srv
     UpdateMission.srv
+    UpdateNetworkEdge.srv
+    UpdateNetworkEdges.srv
+    UpdateNetworkPoint.srv
+    UpdateNetworkPoints.srv
     UpdateTask.srv
     UpdateWaypoint.srv
 )
