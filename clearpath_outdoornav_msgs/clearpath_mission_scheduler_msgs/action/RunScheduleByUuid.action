@@ -10,8 +10,8 @@ duration delay
 # Did the schedule terminate successfully?
 bool success
 ---
-# The ID of the mission we're executing right now
-string current_mission_uuid
+# The mission we're executing right now
+clearpath_mission_scheduler_msgs/ScheduledMission current_mission
 
 # One of "waiting" or "executing" indicating what the schedule is doing
 string state

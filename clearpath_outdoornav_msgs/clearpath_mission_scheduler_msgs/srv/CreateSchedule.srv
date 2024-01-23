@@ -14,8 +14,8 @@ uint8 loop_repeats
 # In MODE_LOOP, how long do we wait between executions?
 duration loop_interval
 
-# The ordered list of Mission UUIDs to execute
-string[] mission_ids
+# The ordered list of Missions to execute
+clearpath_mission_scheduler_msgs/ScheduledMission[] missions
 
 # The minimum battery charge needed before we execute the missions
 # Must be in the range 0-1
