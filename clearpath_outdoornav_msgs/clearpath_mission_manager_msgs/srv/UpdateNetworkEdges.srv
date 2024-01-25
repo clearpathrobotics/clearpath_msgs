@@ -14,6 +14,9 @@ float32[] radii
 # Ignored if negative
 float32[] speed_limits
 
+# The cost factors of the edges
+float32[] cost_factors
+
 ---
 
 # The updated edge

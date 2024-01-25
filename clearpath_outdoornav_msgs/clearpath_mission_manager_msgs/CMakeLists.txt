@@ -46,6 +46,7 @@ add_service_files(
     UpdateNetworkPoints.srv
     UpdateTask.srv
     UpdateWaypoint.srv
+    ValidateNetworkMap.srv
 )
 
 generate_messages(

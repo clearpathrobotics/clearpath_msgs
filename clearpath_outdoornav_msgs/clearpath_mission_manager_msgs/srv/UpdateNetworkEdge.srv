@@ -15,6 +15,12 @@ float32 radius
 # The speed limit when driving along this edge
 float32 speed_limit
 
+# An additional cost factor to prioritize certain edges over others in the planner
+# Higher costs -> edge is less likely to be included in the planned route
+# Expected range is (0.0, 100.0) (exclusive range).
+# Values outside the expected range will be treated as the default 1.0
+float32 cost_factor
+
 ---
 
 # The updated edge
