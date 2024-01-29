@@ -6,9 +6,6 @@ std_msgs/Header header
 string name
 string uuid
 
-# The network of paths we use to plan routes from waypoint-to-waypoint
-clearpath_navigation_msgs/NetworkMap planning_map
-
 # The ordered list of waypoints to visit during this mission
 clearpath_navigation_msgs/Waypoint[] waypoints
 
