@@ -21,6 +21,8 @@ add_service_files(
     AddNetworkPoint.srv
     AddRemoveById.srv
     CloneMission.srv
+    CloneNetworkMap.srv
+    CloneNetworkMission.srv
     CreateMission.srv
     CreateNetworkMap.srv
     CreateNetworkMission.srv
