@@ -8,6 +8,8 @@ string name
 # values for the start/stop points in the connections
 clearpath_navigation_msgs/NetworkPoint[] points
 
+# A simplified array of edges; just specify the start and end point IDs from the array above, rather than providing
+# complete point objects
 clearpath_mission_manager_msgs/NetworkEdgeReq[] connections
 
 ---
