@@ -48,6 +48,7 @@ add_service_files(
     UpdateMission.srv
     UpdateNetworkEdge.srv
     UpdateNetworkEdges.srv
+    UpdateNetworkMap.srv
     UpdateNetworkMission.srv
     UpdateNetworkPoint.srv
     UpdateNetworkPoints.srv

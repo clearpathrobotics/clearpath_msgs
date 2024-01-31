@@ -3,6 +3,9 @@
 # The human-readable name for the map
 string name
 
+float32 default_radius
+float32 default_speed_limit
+
 # The UUIDs of the points will be re-generated when creating the map.
 # When calling this service it is acceptable to use e.g. 0, 1, 2, ... to identify each point and re-use these
 # values for the start/stop points in the connections

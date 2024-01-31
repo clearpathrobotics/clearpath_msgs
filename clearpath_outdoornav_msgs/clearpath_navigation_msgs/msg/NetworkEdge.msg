@@ -12,9 +12,11 @@ clearpath_navigation_msgs/NetworkPoint start_point
 clearpath_navigation_msgs/NetworkPoint end_point
 
 # The deviation radius allowed around this edge in meters
+# If zero/negative, the planner will use the parent NetworkGraph object's default_radius property
 float32 radius
 
 # The speed limit for the zone covered by this edge in m/s
+# If zero/negative, the planner will use the parent NetworkGraph object's default_speed_limit property
 float32 speed_limit
 
 # An additional cost factor to prioritize certain edges over others in the planner
