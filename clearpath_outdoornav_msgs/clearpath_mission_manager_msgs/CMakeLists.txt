@@ -47,6 +47,7 @@ add_service_files(
     ImportMission.srv
     ImportNetworkMap.srv
     ImportNetworkMission.srv
+    SplitNetworkEdge.srv
     UpdateMission.srv
     UpdateNetworkEdge.srv
     UpdateNetworkEdges.srv
