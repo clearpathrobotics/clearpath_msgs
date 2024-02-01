@@ -45,6 +45,8 @@ add_service_files(
     GetWaypoint.srv
     ImportData.srv
     ImportMission.srv
+    ImportNetworkMap.srv
+    ImportNetworkMission.srv
     UpdateMission.srv
     UpdateNetworkEdge.srv
     UpdateNetworkEdges.srv
