@@ -1,1 +1,4 @@
-# Autonomy configuration message containing ...
+# Autonomy configuration message
+
+string version
+float64 uptime
