@@ -2,6 +2,9 @@
 Changelog for package clearpath_mission_scheduler_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.6 (2023-12-21)
 ------------------
 
