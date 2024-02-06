@@ -49,6 +49,7 @@ add_action_files(
     action
   FILES
     ExecuteMissionByUuid.action
+    ExecuteNetworkGoTo.action
     GetWaypointPath.action
     Mission.action
     SmoothPath.action
