@@ -11,5 +11,5 @@ bool exists
 # sides is an out-of-bounds, teleop-only road)
 int32 num_subgraphs
 
-# If the map has any disconnected vertices, we enumerate them here
-clearpath_navigation_msgs/NetworkPoint[] disconnected_points
+# If the map has any disconnected vertices, we enumerate them here by their ID
+string[] disconnected_point_ids
