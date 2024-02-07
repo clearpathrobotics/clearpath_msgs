@@ -1,6 +1,7 @@
 # Action definition for sending a mission to the Clearpath OutdoorNav software
 
 # goal
+string map_uuid
 clearpath_navigation_msgs/Waypoint waypoint
 
 ---
