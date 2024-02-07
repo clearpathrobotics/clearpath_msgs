@@ -52,6 +52,7 @@ add_action_files(
     ExecuteNetworkGoTo.action
     GetWaypointPath.action
     Mission.action
+    RunNetworkGoToPlanner.action
     SmoothPath.action
     UITask.action
 )
