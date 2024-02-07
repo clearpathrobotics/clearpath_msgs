@@ -11,6 +11,7 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     NetworkEdgeReq.msg
+    NetworkMapValidityState.msg
     NetworkMapState.msg
     StorageState.msg
 )
