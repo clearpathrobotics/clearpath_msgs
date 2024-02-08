@@ -2,12 +2,16 @@
 
 # goal
 
-# the minimum allowable distance between recorded points in meters
-float64 min_distance
-
 # the maximum allowed deviation in the smoothed path in meters
 # this value is used during the path simiplification
 float64 max_deviation
+
+# the minimum allowable distance between points (in meters) published in the feedback
+# this filters the feedback topic to reduce the number of points published
+# the final result _may_ include points closer than this distance as a result of
+# the final simplification
+float64 min_distance
+
 ---
 # result
 
