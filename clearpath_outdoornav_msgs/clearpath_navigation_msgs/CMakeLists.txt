@@ -15,6 +15,7 @@ add_message_files(
   FILES
     DistanceToGoal.msg
     NetworkEdge.msg
+    NetworkGoalState.msg
     NetworkMap.msg
     NetworkMission.msg
     NetworkMissionSegment.msg
@@ -51,6 +52,7 @@ add_action_files(
   FILES
     ExecuteMissionByUuid.action
     ExecuteNetworkGoTo.action
+    ExecuteNetworkMissionByUuid.action
     GetWaypointPath.action
     Mission.action
     RunNetworkGoToPlanner.action

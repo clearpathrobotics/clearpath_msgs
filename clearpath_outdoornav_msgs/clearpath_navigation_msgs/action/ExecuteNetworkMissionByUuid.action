@@ -1,0 +1,16 @@
+# Action definition for executing a NetworkMission by uuid
+
+# goal
+string mission_uuid
+string map_uuid
+
+---
+# result
+bool success
+string message
+clearpath_navigation_msgs/NetworkGoalState[] goal_states
+
+---
+# feedback
+string message
+clearpath_navigation_msgs/NetworkGoalState[] goal_states
