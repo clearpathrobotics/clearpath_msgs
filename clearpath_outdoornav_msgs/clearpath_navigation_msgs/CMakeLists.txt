@@ -17,6 +17,7 @@ add_message_files(
     NetworkEdge.msg
     NetworkMap.msg
     NetworkMission.msg
+    NetworkMissionSegment.msg
     NetworkPoint.msg
     Metrics.msg
     Mission.msg
@@ -53,6 +54,7 @@ add_action_files(
     GetWaypointPath.action
     Mission.action
     RunNetworkGoToPlanner.action
+    RunNetworkMissionPreviewer.action
     RecordPath.action
     SmoothPath.action
     UITask.action
