@@ -13,6 +13,7 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
+    AutonomyStatus.msg
     DistanceToGoal.msg
     NetworkEdge.msg
     NetworkGoalState.msg
