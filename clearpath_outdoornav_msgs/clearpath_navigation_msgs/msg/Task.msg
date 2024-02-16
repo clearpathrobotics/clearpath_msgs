@@ -1,5 +1,7 @@
 # A single task that can be executed at a Waypoint
 
+std_msgs/Header header
+
 # The human-readable name of this task
 string name
 

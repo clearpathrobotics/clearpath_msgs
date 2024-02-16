@@ -9,6 +9,8 @@ uint8 MODE_LOOP=1
 # Equivalent to MODE_ONCE, but for one-off, throw-away schedules (e.g. "Run X in 5 minutes")
 uint8 MODE_TRANSIENT=2
 
+std_msgs/Header header
+
 # The human-readable name for this schedule
 # Should be unique, but there's no hard requirement for it to be so
 string name

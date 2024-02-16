@@ -1,5 +1,7 @@
 # A single Waypoint along a Mission
 
+std_msgs/Header header
+
 # A UUID string to uniquely identify this Waypoint
 string uuid
 

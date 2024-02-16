@@ -7,6 +7,8 @@
 int8 MISSION_TYPE_NORMAL = 1
 int8 MISSION_TYPE_NETWORK_OF_PATHS = 2
 
+std_msgs/Header header
+
 # The type of mission; dictates what service & action we need to call to operate on the mission itself
 int8 mission_type
 

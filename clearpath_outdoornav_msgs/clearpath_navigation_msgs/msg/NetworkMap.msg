@@ -1,6 +1,8 @@
 # The graph representing the Network of Paths
 # This is implemented as a directed graph
 
+std_msgs/Header header
+
 string name
 string uuid
 
