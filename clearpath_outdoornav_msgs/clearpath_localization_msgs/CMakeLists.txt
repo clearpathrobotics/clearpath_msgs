@@ -29,7 +29,9 @@ add_action_files(
 add_service_files(
   FILES
     ConvertCartesianToLatLon.srv
+    ConvertCartesianToLatLonArray.srv
     ConvertLatLonToCartesian.srv
+    ConvertLatLonToCartesianArray.srv
     ResetLocalization.srv
     SetDatum.srv
 )
