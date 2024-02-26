@@ -2,6 +2,12 @@
 Changelog for package clearpath_configuration_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.7 (2024-02-05)
+------------------
+* Merge pull request `#30 <https://github.com/clearpathrobotics/clearpath_msgs/issues/30>`_ from clearpathrobotics/ONAV-166
+  updated autonomy config msg
+* Contributors: José Mastrangelo
+
 0.9.6 (2023-12-21)
 ------------------
 

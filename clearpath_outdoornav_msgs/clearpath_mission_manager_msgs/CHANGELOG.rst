@@ -2,6 +2,9 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.7 (2024-02-05)
+------------------
+
 0.9.6 (2023-12-21)
 ------------------
 * Add a new service for deleting multiple IDs at once
