@@ -16,13 +16,14 @@ clearpath_navigation_msgs/Task[] on_start
 # These Tasks will execute regardless of mission success or failure
 clearpath_navigation_msgs/Task[] on_stop
 
-# Dock UUID that the robot should return to when battery level drops
-# below 'return_to_dock_battery_level'
+# Boolean value indicating whether robot should attempt 'return to dock' behavior
+# when battery level drops below return_to_dock_battery_level
+bool return_to_dock_enabled
+
+# Dock UUID that the robot should return to for 'return to dock' behavior
 string return_to_dock_id
 
 # Value from 0 to 1 indicating what charge level the robot will return to dock at
-# Setting this value to -1 will ensure the robot never automatically returns to dock while
-# a mission is being executed
 float32 return_to_dock_battery_level
 
 # Value from 0 to 1 indicating what charge level the robot should resume this mission at
