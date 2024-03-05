@@ -10,8 +10,15 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
+    AssistedTeleopState.msg
+    ObstacleMap.msg
     Safety.msg
     WatchdogStatus.msg
+)
+
+add_service_files(
+  FILES
+    BypassProtection.srv
 )
 
 generate_messages(
