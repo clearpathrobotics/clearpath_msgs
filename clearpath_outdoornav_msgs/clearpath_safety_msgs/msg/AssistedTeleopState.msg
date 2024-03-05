@@ -9,4 +9,4 @@ bool bypassed
 uint8 bypass_trigger
 
 bool collision_imminent
-bool platform_stopped
+bool assisted_stop
