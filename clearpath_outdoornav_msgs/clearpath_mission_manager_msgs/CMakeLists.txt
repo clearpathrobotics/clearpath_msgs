@@ -20,6 +20,7 @@ add_service_files(
   FILES
     AddNetworkEdge.srv
     AddNetworkPoint.srv
+    AddNetworkPath.srv
     AddRemoveById.srv
     CloneMission.srv
     CloneNetworkMap.srv
