@@ -33,6 +33,7 @@ add_message_files(
     Task.msg
     TrackError.msg
     Vector2D.msg
+    Vector2D64.msg
     Waypoint.msg
     WaypointStatus.msg
 )
