@@ -25,4 +25,4 @@ clearpath_navigation_msgs/Vector2D[] points
 # current progress; the raw points recorded so far
 # [0] = latitude
 # [1] = longitude
-clearpath_navigation_msgs/Vector2D[] points
+clearpath_navigation_msgs/Vector2D64[] points
