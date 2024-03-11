@@ -2,6 +2,11 @@
 Changelog for package clearpath_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add additional messages for Network of Paths
+* Contributors: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>, Stephen Phillips <stphillips@clearpathrobotics.com>
+
 0.9.7 (2024-02-05)
 ------------------
 
