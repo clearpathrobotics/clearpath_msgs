@@ -2,8 +2,8 @@
 Changelog for package clearpath_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.8 (2024-03-11)
+------------------
 * remove old commented message
 * finalized assisted teleop state message
 * change stop field
