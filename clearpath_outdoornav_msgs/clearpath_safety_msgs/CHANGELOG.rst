@@ -2,6 +2,17 @@
 Changelog for package clearpath_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* remove old commented message
+* finalized assisted teleop state message
+* change stop field
+* add new endline
+* change bypass trigger to uint8
+* added bypass trigger type to state message
+* added assisted teleop messages
+* Contributors: José Mastrangelo <jmastrangelo@clearpathrobotics.com>
+
 0.9.7 (2024-02-05)
 ------------------
 
