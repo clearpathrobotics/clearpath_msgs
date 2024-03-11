@@ -1,0 +1,7 @@
+# Service definition to get dock related into for dock specified by UUID
+
+string dock_uuid
+---
+geometry_msgs/Pose dock_pose
+geometry_msgs/Pose predock_pose
+clearpath_dock_msgs/DockInfo info

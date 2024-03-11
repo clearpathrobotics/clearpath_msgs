@@ -13,12 +13,14 @@ add_message_files(
   FILES
     NextSchedule.msg
     Schedule.msg
+    ScheduledMission.msg
     StorageState.msg
     UtcTime.msg
 )
 
 add_service_files(
   FILES
+  AddMissionToSchedule.srv
   CloneSchedule.srv
   CreateSchedule.srv
   EnableSchedule.srv

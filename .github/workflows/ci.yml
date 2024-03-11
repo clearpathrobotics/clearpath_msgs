@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - '!noetic-devel'
+      - '!network-of-paths'
   pull_request:
   schedule:
     - cron: "0 0 * * *" # every day at midnight

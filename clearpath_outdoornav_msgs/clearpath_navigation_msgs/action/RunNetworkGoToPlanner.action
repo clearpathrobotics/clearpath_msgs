@@ -1,0 +1,13 @@
+# Action for starting network GoTo planner
+
+# goal
+string map_uuid
+clearpath_navigation_msgs/Waypoint waypoint
+
+---
+# result
+bool success
+
+---
+# feedback
+geometry_msgs/Point[] points
