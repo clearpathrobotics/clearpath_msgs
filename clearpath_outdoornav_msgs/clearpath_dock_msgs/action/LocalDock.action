@@ -1,12 +1,12 @@
 # Action definition for undocking a Clearpath UGV from one of its charging docks.
 
 # goal
+
 ---
 # result
 bool success
+string message
+
 ---
 # feedback
-string state
-
-# the distance of the charger_link to the dock target
-float64 distance_to_dock
+string message

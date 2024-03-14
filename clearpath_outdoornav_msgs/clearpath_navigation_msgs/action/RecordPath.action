@@ -18,7 +18,8 @@ float64 min_distance
 # the simplified path; the length of this path will be <= the length of the last feedback
 # [0] = latitude
 # [1] = longitude
-clearpath_navigation_msgs/Vector2D[] points
+clearpath_navigation_msgs/Vector2D64[] points
+
 ---
 # feedback
 
