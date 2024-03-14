@@ -5,6 +5,7 @@ project(clearpath_dock_msgs)
 find_package(catkin REQUIRED
   COMPONENTS
     actionlib_msgs
+    clearpath_navigation_msgs
     message_generation
     geometry_msgs
     std_msgs
@@ -34,13 +35,16 @@ add_action_files(
   DIRECTORY
     action
   FILES
-    Dock.action
-    Undock.action
+    LocalDock.action
+    LocalUndock.action
+    NetworkDock.action
+    RadiusDock.action
 )
 
 generate_messages(
   DEPENDENCIES
     actionlib_msgs
+    clearpath_navigation_msgs
     geometry_msgs
     std_msgs
 )
