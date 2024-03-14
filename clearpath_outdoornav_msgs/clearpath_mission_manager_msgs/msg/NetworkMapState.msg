@@ -12,4 +12,9 @@ bool exists
 int32 num_subgraphs
 
 # If the map has any disconnected vertices, we enumerate them here by their ID
+# If size_exceeded is true, this list may be empty or incomplete (see below)
 string[] disconnected_point_ids
+
+# True if the map is too big for the validation to run on it
+# Maps with more than 1000 vertices or 8000 edges will not be fully tests
+bool size_exceeded

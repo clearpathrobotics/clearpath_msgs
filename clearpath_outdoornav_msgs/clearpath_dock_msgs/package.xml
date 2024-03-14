@@ -10,6 +10,7 @@
 
   <depend>actionlib</depend>
   <depend>actionlib_msgs</depend>
+  <depend>clearpath_navigation_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>message_runtime</depend>
   <depend>std_msgs</depend>
