@@ -2,6 +2,18 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Message updates for onav-0.12 (`#34 <https://github.com/clearpathrobotics/clearpath_msgs/issues/34>`_)
+  * Add the size_exceeded field to NetworkMapState
+  * Mod: Update dock messages for new 0.12 docking APIs
+  * Mod: Add new autonomy API types to AutonomyStatus.msg
+  * Mod: Use float64 version of Vector2D for returning path recording lat-lons
+  * Mod: Add header field to RunNetworkGoToPlanner.action feedback
+  ---------
+  Co-authored-by: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+* Contributors: stephen-cpr
+
 0.9.8 (2024-03-11)
 ------------------
 * Add additional messages for Network of Paths
