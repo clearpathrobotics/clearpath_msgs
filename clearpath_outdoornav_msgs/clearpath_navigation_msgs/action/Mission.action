@@ -12,6 +12,7 @@ clearpath_navigation_msgs/Waypoint start_waypoint
 ---
 # result
 bool success
+string message
 ---
 # feedback
-string state
+string message
