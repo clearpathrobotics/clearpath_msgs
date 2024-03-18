@@ -13,6 +13,7 @@ string start_waypoint_uuid
 ---
 # result
 bool success
+string message
 ---
 # feedback
-string state
+string message
