@@ -22,3 +22,4 @@ string message
 ---
 # feedback
 string message
+clearpath_navigation_msgs/NetworkMissionSegment network_plan
