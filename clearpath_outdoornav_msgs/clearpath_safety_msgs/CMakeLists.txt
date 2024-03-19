@@ -16,11 +16,6 @@ add_message_files(
     WatchdogStatus.msg
 )
 
-add_service_files(
-  FILES
-    BypassProtection.srv
-)
-
 generate_messages(
   DEPENDENCIES
     std_msgs
