@@ -1,9 +1,0 @@
-# Should protection of all inputs be bypassed?
-bool bypass
- 
----
- 
-# True if we successfully bypassed the protection of the inputs.
-# False if there was an error
-bool success
-string message
