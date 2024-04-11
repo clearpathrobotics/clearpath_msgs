@@ -27,6 +27,7 @@ add_message_files(
     MotionState.msg
     NavigationState.msg
     OdomIntent.msg
+    PointOfInterest.msg
     PointVector.msg
     Progress.msg
     ScanPoints.msg

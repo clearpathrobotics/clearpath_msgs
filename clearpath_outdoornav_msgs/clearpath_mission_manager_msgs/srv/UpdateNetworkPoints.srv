@@ -4,7 +4,7 @@ string map_id
 # The UUID of the points to edit
 string[] uuids
 
-# The location of the points on the map, in the same order as uuids
+# The location of the points on the map, in the same order as uuids (in decimal degrees)
 float64[] latitudes
 float64[] longitudes
 

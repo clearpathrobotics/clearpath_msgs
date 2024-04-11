@@ -1,10 +1,10 @@
 # The desired name for the Waypoint
 string name
 
-# The latitude for the Waypoint in degrees
+# The latitude for the Waypoint (in decimal degrees)
 float64 latitude
 
-# The longitude for the Waypoint in degrees
+# The longitude for the Waypoint (in decimal degrees)
 float64 longitude
 
 # The compass heading in degrees for the Waypoint
