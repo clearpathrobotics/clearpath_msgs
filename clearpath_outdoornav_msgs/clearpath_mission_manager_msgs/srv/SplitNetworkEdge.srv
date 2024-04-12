@@ -6,7 +6,7 @@ string map_id
 # The UUID of the edge we want to split
 string edge_id
 
-# The position of the new point to create
+# The position of the new point to create (in decimal degrees)
 float64 new_point_latitude
 float64 new_point_longitude
 
