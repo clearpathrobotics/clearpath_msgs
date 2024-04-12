@@ -1,12 +1,4 @@
-# Message containing the data used to represent a Point of interest (POI)
-
-# If this tag is present, the POI can be used as a navigation goal
-string TAG_GOTO = "goto"
-
-# If this tag is present, the POI can be set as the target for a PTZ camera action
-string TAG_PTZ = "ptz"
-
-# A UUID string to uniquely identify this POI
+# The ID of the point to edit
 string uuid
 
 # The human-readable name of this POI
@@ -29,3 +21,5 @@ string[] tags
 
 # A JSON formatted string that contains user defined POI fields
 string custom_fields_json
+---
+clearpath_navigation_msgs/PointOfInterest result

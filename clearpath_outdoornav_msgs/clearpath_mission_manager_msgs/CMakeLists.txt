@@ -28,8 +28,10 @@ add_service_files(
     CreateMission.srv
     CreateNetworkMap.srv
     CreateNetworkMission.srv
+    CreatePointOfInterest.srv
     CreateTask.srv
     CreateWaypoint.srv
+    CreateWaypointFromPoi.srv
     DeleteById.srv
     DeleteEverything.srv
     DeleteMultiple.srv
@@ -57,6 +59,7 @@ add_service_files(
     UpdateNetworkMission.srv
     UpdateNetworkPoint.srv
     UpdateNetworkPoints.srv
+    UpdatePointOfInterest.srv
     UpdateTask.srv
     UpdateWaypoint.srv
     ValidateNetworkMap.srv
