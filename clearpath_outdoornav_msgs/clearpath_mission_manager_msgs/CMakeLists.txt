@@ -39,12 +39,14 @@ add_service_files(
     GetAllMissions.srv
     GetAllNetworkMaps.srv
     GetAllNetworkMissions.srv
+    GetAllPointsOfInterest.srv
     GetAllTasks.srv
     GetAllWaypoints.srv
     GetEverything.srv
     GetMission.srv
     GetNetworkMap.srv
     GetNetworkMission.srv
+    GetPointOfInterest.srv
     GetTask.srv
     GetWaypoint.srv
     ImportData.srv
