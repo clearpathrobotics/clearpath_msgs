@@ -25,6 +25,7 @@ add_service_files(
     CloneMission.srv
     CloneNetworkMap.srv
     CloneNetworkMission.srv
+    ClonePointOfInterest.srv
     CreateMission.srv
     CreateNetworkMap.srv
     CreateNetworkMission.srv
