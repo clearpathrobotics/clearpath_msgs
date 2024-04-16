@@ -20,6 +20,7 @@ add_message_files(
 add_service_files(
   FILES
   RecordEvent.srv
+  RecordCustomEvent.srv
   RecordLocationEvent.srv
   RecordMediaEvent.srv
   RecordPowerEvent.srv

@@ -1,0 +1,5 @@
+# A valid JSON string containing the custom data to be recorded
+string custom_fields_json
+
+# Tags to add to the event
+string[] tags
