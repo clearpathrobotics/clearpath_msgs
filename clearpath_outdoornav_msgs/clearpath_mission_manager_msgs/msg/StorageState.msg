@@ -19,3 +19,6 @@ clearpath_navigation_msgs/NetworkMission[] network_missions
 
 # All network of paths maps in the database
 clearpath_navigation_msgs/NetworkMap[] network_maps
+
+# Points of interest
+clearpath_navigation_msgs/PointOfInterest[] points_of_interest
