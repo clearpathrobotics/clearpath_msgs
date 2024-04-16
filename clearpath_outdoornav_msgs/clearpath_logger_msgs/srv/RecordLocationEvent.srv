@@ -1,0 +1,16 @@
+# The robot's current latitude (decimal degrees)
+float64 latitude
+
+# The robot's current longitude (decimal degrees)
+float64 longitude
+
+# The robot's current heading (cardinal direction in decimal degrees)
+float64 heading
+
+# The robot's current linear & angular velocity
+geometry_msgs/Twist velocity
+
+# The robot's current odometry location
+geometry_msgs/Odometry odometry
+---
+clearpath_logger_msgs/Event event

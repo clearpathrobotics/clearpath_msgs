@@ -1,0 +1,9 @@
+# The path to the media file on-disk
+string media_path
+
+# The frame ID for the sensor that recorded the media
+# Leave blank if the sensor has no frame/TF data associated with it
+string frame_id
+---
+# The logged event
+clearpath_logger_msgs/Event event

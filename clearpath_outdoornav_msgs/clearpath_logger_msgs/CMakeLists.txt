@@ -17,6 +17,14 @@ add_message_files(
   EventLog.msg
 )
 
+add_service_files(
+  FILES
+  RecordEvent.srv
+  RecordLocationEvent.srv
+  RecordMediaEvent.srv
+  RecordPowerEvent.srv
+)
+
 generate_messages(
   DEPENDENCIES
   geometry_msgs
