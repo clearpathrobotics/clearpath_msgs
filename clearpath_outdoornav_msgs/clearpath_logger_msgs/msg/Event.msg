@@ -1,0 +1,70 @@
+################################################################################
+## Universal log event. Represents a single even recorded to the log
+################################################################################
+
+# Tag for events that include a media_path
+string TAG_MEDIA = "media"
+
+# Tag indicating that the event's charger status & battery level have been set
+string TAG_POWER = "power"
+
+# Tag indicating that the event's position & velocity have been set
+string TAG_POSITION = "position"
+
+################################################################################
+## Header & general meta-data about the event
+################################################################################
+
+# Header
+# - seq: the order of this event within its parent ExecutionLog
+# - frame_id: the sensor/manipulator frame referenced by the frame_pose field
+# - stamp: the time that this event occurred
+std_msgs/Header header
+
+################################################################################
+## Media & sensor data
+################################################################################
+
+# If this even has media, this is its path on-disk
+string media_path
+
+# The pose of the sensor/manipulator frame given by header.frame_id relative to
+# base_link
+geometry_msgs/Pose frame_pose
+
+################################################################################
+## Robot location, orientation, velocity
+################################################################################
+
+# The robot's latitude, longitude, and heading as recorded by the GPS
+# - lat: decimal degrees
+# - lon: decimal degrees
+# - heading: cardinal direction in degrees (0 = North, 90 = East, etc...)
+geometry_msgs/Point lat_lon_heading
+
+# The robot's location relative to the odometry frame
+nav_msgs/Odometry odometry
+
+# The robot's linear & angular velocity
+geometry_msgs/Twist velocity
+
+################################################################################
+## Power & battery
+################################################################################
+
+# The 0-1 charge level of the battery
+float32 battery_percent
+
+# True of the robot's battery is charging, otherwise False
+bool charging
+
+################################################################################
+## Custom fields for expansion
+################################################################################
+
+# Arbitrary free-form tags usable to annotate custom data
+# At minimum, one or more of TAG_MEDIA, TAG_POWER, or TAG_POSITION will be present
+string[] tags
+
+# Arbitrary JSON-formatted data that can contain user-defined fields
+string custom_fields_json
