@@ -11,6 +11,6 @@ float64 heading
 geometry_msgs/Twist velocity
 
 # The robot's current odometry location
-geometry_msgs/Odometry odometry
+nav_msgs/Odometry odometry
 ---
 clearpath_logger_msgs/Event event

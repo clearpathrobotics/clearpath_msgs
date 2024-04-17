@@ -1,0 +1,4 @@
+# The UUID of the mission (e.g. network of paths mission, waypoint mission) being executed
+string mission_uuid
+---
+clearpath_logger_msgs/EventLog log

@@ -58,6 +58,9 @@ float32 battery_percent
 # True of the robot's battery is charging, otherwise False
 bool charging
 
+# True if power-saving/low-power mode is enabled, otherwise False
+bool power_saver
+
 ################################################################################
 ## Custom fields for expansion
 ################################################################################

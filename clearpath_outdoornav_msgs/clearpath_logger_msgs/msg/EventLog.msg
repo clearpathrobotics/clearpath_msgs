@@ -13,7 +13,7 @@ string uuid
 
 # The UUID of the waypoint or network of paths mission (or other mission type)
 # being executed
-string mission_id
+string mission_uuid
 
 # The total percentage of the battery used during the execution
 # This measures only negative changes, not positive ones

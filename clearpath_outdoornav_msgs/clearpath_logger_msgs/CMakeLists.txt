@@ -24,6 +24,8 @@ add_service_files(
   RecordLocationEvent.srv
   RecordMediaEvent.srv
   RecordPowerEvent.srv
+  StartRecording.srv
+  StopRecording.srv
 )
 
 generate_messages(
