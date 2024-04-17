@@ -3,13 +3,13 @@
 ################################################################################
 
 # The log is currently active and being modified
-STATE_ACTIVE = 0
+int32 STATE_ACTIVE = 0
 
 # The log is old and closed
-STATE_CLOSED = 1
+int32 STATE_CLOSED = 1
 
 # The master record of the log exists, but its data has been deleted from the disk
-STATE_DELETED = 2
+int32 STATE_DELETED = 2
 
 # The state of the log on disk
 int32 state
