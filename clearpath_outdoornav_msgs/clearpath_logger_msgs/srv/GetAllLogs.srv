@@ -1,2 +1,2 @@
 ---
-clearpath_logger_msgs/EventLog logs
+clearpath_logger_msgs/EventLog[] logs
