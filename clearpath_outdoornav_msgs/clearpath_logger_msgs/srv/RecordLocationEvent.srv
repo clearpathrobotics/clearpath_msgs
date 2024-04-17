@@ -12,5 +12,9 @@ geometry_msgs/Twist velocity
 
 # The robot's current odometry location
 nav_msgs/Odometry odometry
+
+# Tags for the event
+# Should contain one or more of Event.TAG_LOCATION, TAG_ODOMETRY, or TAG_VELOCITY
+string[] tags
 ---
 clearpath_logger_msgs/Event event

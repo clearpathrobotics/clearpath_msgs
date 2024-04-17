@@ -20,6 +20,7 @@ add_message_files(
 add_service_files(
   FILES
   DownloadLog.srv
+  GetAllLogs.srv
   RecordEvent.srv
   RecordCustomEvent.srv
   RecordLocationEvent.srv

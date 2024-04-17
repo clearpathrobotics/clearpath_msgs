@@ -15,4 +15,6 @@
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
 
+  <depend>python-sqlite</depend>
+
 </package>

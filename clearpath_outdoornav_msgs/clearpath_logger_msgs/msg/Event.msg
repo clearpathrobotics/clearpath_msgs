@@ -8,8 +8,14 @@ string TAG_MEDIA = "media"
 # Tag indicating that the event's charger status & battery level have been set
 string TAG_POWER = "power"
 
-# Tag indicating that the event's position & velocity have been set
+# Tag indicating that the event's GPS position has been set
 string TAG_LOCATION = "location"
+
+# Tag indicating that the event's odometry data has been set
+string TAG_ODOMETRY = "odom"
+
+# Tag indicating that the event's velocity data has been set
+string TAG_VELOCITY = "vel"
 
 ################################################################################
 ## Header & general meta-data about the event
@@ -66,7 +72,6 @@ bool power_saver
 ################################################################################
 
 # Arbitrary free-form tags usable to annotate custom data
-# At minimum, one or more of TAG_MEDIA, TAG_POWER, or TAG_LOCATION will be present
 string[] tags
 
 # Arbitrary JSON-formatted data that can contain user-defined fields
