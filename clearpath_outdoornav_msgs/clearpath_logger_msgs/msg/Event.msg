@@ -17,6 +17,9 @@ string TAG_ODOMETRY = "odom"
 # Tag indicating that the event's velocity data has been set
 string TAG_VELOCITY = "vel"
 
+# Tag indicating that this event was automatically recorded telemetry
+string TAG_AUTO_TELEMETRY = "auto_telemetry"
+
 ################################################################################
 ## Header & general meta-data about the event
 ################################################################################
