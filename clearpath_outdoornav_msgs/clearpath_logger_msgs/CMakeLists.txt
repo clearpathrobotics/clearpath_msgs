@@ -19,6 +19,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  DeleteLog.srv
   DownloadLog.srv
   GetAllLogs.srv
   RecordEvent.srv
