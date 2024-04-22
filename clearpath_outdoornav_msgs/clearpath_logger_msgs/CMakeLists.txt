@@ -15,6 +15,7 @@ add_message_files(
   FILES
   Event.msg
   EventLog.msg
+  EventLogs.msg
 )
 
 add_service_files(
