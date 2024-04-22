@@ -11,6 +11,7 @@ float64 longitude
 float64 elevation
 
 # The compass heading (in degrees) of this POI (optional)
+bool enable_heading
 float64 heading
 
 # A set of labels assigned to the POI in order to categorize it
