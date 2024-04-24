@@ -48,7 +48,7 @@ geometry_msgs/Pose frame_pose
 # The robot's latitude, longitude, and heading as recorded by the GPS
 # - lat: decimal degrees
 # - lon: decimal degrees
-# - heading: cardinal direction in degrees (0 = North, 90 = East, etc...)
+# - heading: ENU orientation in radians
 geometry_msgs/Point lat_lon_heading
 
 # The robot's location relative to the odometry frame
