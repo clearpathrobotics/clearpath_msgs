@@ -17,6 +17,9 @@ string TAG_ODOMETRY = "odom"
 # Tag indicating that the event's velocity data has been set
 string TAG_VELOCITY = "vel"
 
+# Tag indicating that the event's error/debugging data has been set
+string TAG_ERROR = "error"
+
 # Tag indicating that this event was automatically recorded telemetry
 string TAG_AUTO_TELEMETRY = "auto_telemetry"
 
@@ -69,6 +72,19 @@ bool charging
 
 # True if power-saving/low-power mode is enabled, otherwise False
 bool power_saver
+
+################################################################################
+## Error and debugging events
+################################################################################
+
+# An error code indicating the type of error
+int32 error_code
+
+# A diagnostic error message, or non-integer error code
+string error_msg
+
+# The name of the module/process/pipeline/etc... that signalled the error
+string error_component
 
 ################################################################################
 ## Custom fields for expansion

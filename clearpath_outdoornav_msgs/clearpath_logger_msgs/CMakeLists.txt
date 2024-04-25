@@ -25,6 +25,7 @@ add_service_files(
   GetAllLogs.srv
   RecordEvent.srv
   RecordCustomEvent.srv
+  RecordErrorEvent.srv
   RecordLocationEvent.srv
   RecordMediaEvent.srv
   RecordPowerEvent.srv

@@ -39,5 +39,8 @@ float32 battery_percent_used
 # sensor noise/error
 float32 distance_driven
 
+# A custom JSON field for adding additional custom metrics, meta-data, etc... as needed
+string custom_fields_json
+
 # The list of events recorded in this execution
 clearpath_logger_msgs/Event[] events
