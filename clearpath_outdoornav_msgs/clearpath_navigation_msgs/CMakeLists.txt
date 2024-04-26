@@ -57,6 +57,7 @@ add_action_files(
     ExecuteNetworkGoTo.action
     ExecuteNetworkMissionByUuid.action
     GetWaypointPath.action
+    NetworkGoToPOI.action
     Mission.action
     RunNetworkGoToPlanner.action
     RunNetworkMissionPreviewer.action
