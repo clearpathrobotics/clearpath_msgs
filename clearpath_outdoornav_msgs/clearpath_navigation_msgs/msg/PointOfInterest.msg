@@ -1,10 +1,10 @@
 # Message containing the data used to represent a Point of interest (POI)
 
 # If this tag is present, the POI can be used as a navigation goal
-string TAG_GOTO = "goto"
+string TAG_GOTO = goto
 
 # If this tag is present, the POI can be set as the target for a PTZ camera action
-string TAG_PTZ = "ptz"
+string TAG_PTZ = ptz
 
 # A UUID string to uniquely identify this POI
 string uuid
