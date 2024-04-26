@@ -3,25 +3,25 @@
 ################################################################################
 
 # Tag for events that include a media_path
-string TAG_MEDIA = "media"
+string TAG_MEDIA = media
 
 # Tag indicating that the event's charger status & battery level have been set
-string TAG_POWER = "power"
+string TAG_POWER = power
 
 # Tag indicating that the event's GPS position has been set
-string TAG_LOCATION = "location"
+string TAG_LOCATION = location
 
 # Tag indicating that the event's odometry data has been set
-string TAG_ODOMETRY = "odom"
+string TAG_ODOMETRY = odom
 
 # Tag indicating that the event's velocity data has been set
-string TAG_VELOCITY = "vel"
+string TAG_VELOCITY = vel
 
 # Tag indicating that the event's error/debugging data has been set
-string TAG_ERROR = "error"
+string TAG_ERROR = error
 
 # Tag indicating that this event was automatically recorded telemetry
-string TAG_AUTO_TELEMETRY = "auto_telemetry"
+string TAG_AUTO_TELEMETRY = auto_telemetry
 
 ################################################################################
 ## Header & general meta-data about the event
