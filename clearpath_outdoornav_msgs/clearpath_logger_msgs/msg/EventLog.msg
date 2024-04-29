@@ -23,9 +23,9 @@ time end_time
 # This execution's unique ID
 string uuid
 
-# The UUID of the waypoint or network of paths mission (or other mission type)
-# being executed
-string mission_uuid
+# A descriptive name of the log as a whole
+# May be used to indicate the UUID of the Network of Paths or Waypoint mission being executed
+string name
 
 # The total percentage of the battery used during the execution
 # This measures only negative changes, not positive ones
