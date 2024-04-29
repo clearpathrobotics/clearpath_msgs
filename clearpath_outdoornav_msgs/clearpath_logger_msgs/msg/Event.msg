@@ -40,6 +40,10 @@ std_msgs/Header header
 # If this even has media, this is its path on-disk
 string media_path
 
+# If this event has media, this is its MIME type
+# May be left blank
+string media_mime_type
+
 # The pose of the sensor/manipulator frame given by header.frame_id relative to
 # base_link
 geometry_msgs/Pose frame_pose
