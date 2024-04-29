@@ -1,4 +1,4 @@
-# The UUID of the mission (e.g. network of paths mission, waypoint mission) being executed
-string mission_uuid
+# A human-readable name for the log
+string name
 ---
 clearpath_logger_msgs/EventLog log
