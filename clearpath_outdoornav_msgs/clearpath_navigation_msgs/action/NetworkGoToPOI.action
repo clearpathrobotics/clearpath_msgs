@@ -2,7 +2,7 @@
 
 # goal
 string poi_uuid
-string network_uuid
+string map_uuid
 
 ---
 # result
