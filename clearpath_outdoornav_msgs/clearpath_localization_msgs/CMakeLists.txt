@@ -16,6 +16,7 @@ add_message_files(
     GNSSStatus.msg
     LocalizationStatus.msg
     SurveyProperties.msg
+    XvnStatus.msg
 )
 
 ## Add actions
