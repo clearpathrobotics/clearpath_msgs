@@ -2,6 +2,7 @@
 
 # goal
 string poi_uuid
+float32 zoom
 
 ---
 # result
