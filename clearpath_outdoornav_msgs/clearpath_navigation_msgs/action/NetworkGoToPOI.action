@@ -1,0 +1,15 @@
+# Action definition for sending the Clearpath UGV to a Point of Interest (POI)
+
+# goal
+string poi_uuid
+string map_uuid
+
+---
+# result
+bool success
+string message
+
+---
+# feedback
+string message
+clearpath_navigation_msgs/NetworkMissionSegment network_plan
