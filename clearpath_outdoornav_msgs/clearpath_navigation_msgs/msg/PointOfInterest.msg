@@ -4,7 +4,7 @@
 string TAG_GOTO = goto
 
 # If this tag is present, the POI can be set as the target for a PTZ camera action
-string TAG_PTZ = ptz
+string TAG_INSPECT = inspect
 
 # A UUID string to uniquely identify this POI
 string uuid
