@@ -1,52 +1,34 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_mission_scheduler_msgs)
 
-find_package(catkin REQUIRED
-  COMPONENTS
-    clearpath_mission_manager_msgs
-    clearpath_navigation_msgs
-    message_generation
-    std_msgs
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(clearpath_navigation_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        action/RunScheduleByUuid.action
+        msg/NextSchedule.msg
+        msg/Schedule.msg
+        msg/StorageState.msg
+        msg/UtcTime.msg
+        srv/CloneSchedule.srv
+        srv/CreateSchedule.srv
+        srv/EnableSchedule.srv
+        srv/ExportData.srv
+        srv/GetAllSchedules.srv
+        srv/GetNextSchedule.srv
+        srv/GetSchedule.srv
+        srv/ImportData.srv
+        srv/UpdateSchedule.srv
+    DEPENDENCIES
+        clearpath_navigation_msgs
 )
 
-add_message_files(
-  FILES
-    NextSchedule.msg
-    Schedule.msg
-    StorageState.msg
-    UtcTime.msg
-)
+ament_package()
 
-add_service_files(
-  FILES
-  CloneSchedule.srv
-  CreateSchedule.srv
-  EnableSchedule.srv
-  ExportData.srv
-  GetAllSchedules.srv
-  GetNextSchedule.srv
-  GetSchedule.srv
-  ImportData.srv
-  UpdateSchedule.srv
-)
-
-## Add actions
-add_action_files(
-  DIRECTORY
-    action
-  FILES
-    RunScheduleByUuid.action
-)
-
-generate_messages(
-  DEPENDENCIES
-    clearpath_mission_manager_msgs
-    clearpath_navigation_msgs
-    std_msgs
-)
-
-catkin_package(
-)
-
-include_directories(
+install(FILES
+  DESTINATION include/${PROJECT_NAME}
 )

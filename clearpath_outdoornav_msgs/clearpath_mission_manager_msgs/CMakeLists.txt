@@ -1,75 +1,65 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_mission_manager_msgs)
 
-find_package(catkin REQUIRED
-  COMPONENTS
-    clearpath_navigation_msgs
-    message_generation
-    std_msgs
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(clearpath_navigation_msgs REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        msg/NetworkEdgeReq.msg
+        msg/NetworkMapState.msg
+        msg/NetworkMapValidityState.msg
+        msg/StorageState.msg
+        srv/AddNetworkEdge.srv
+        srv/AddNetworkPath.srv
+        srv/AddNetworkPoint.srv
+        srv/AddRemoveById.srv
+        srv/CloneMission.srv
+        srv/CloneNetworkMap.srv
+        srv/CloneNetworkMission.srv
+        srv/CreateMission.srv
+        srv/CreateNetworkMap.srv
+        srv/CreateNetworkMission.srv
+        srv/CreateTask.srv
+        srv/CreateWaypoint.srv
+        srv/DeleteById.srv
+        srv/DeleteEverything.srv
+        srv/DeleteMultiple.srv
+        srv/ExportData.srv
+        srv/GetAllMissions.srv
+        srv/GetAllNetworkMaps.srv
+        srv/GetAllNetworkMissions.srv
+        srv/GetAllTasks.srv
+        srv/GetAllWaypoints.srv
+        srv/GetEverything.srv
+        srv/GetMission.srv
+        srv/GetNetworkMap.srv
+        srv/GetNetworkMission.srv
+        srv/GetTask.srv
+        srv/GetWaypoint.srv
+        srv/ImportData.srv
+        srv/ImportMission.srv
+        srv/ImportNetworkMap.srv
+        srv/ImportNetworkMission.srv
+        srv/SplitNetworkEdge.srv
+        srv/UpdateMission.srv
+        srv/UpdateNetworkEdge.srv
+        srv/UpdateNetworkEdges.srv
+        srv/UpdateNetworkMap.srv
+        srv/UpdateNetworkMission.srv
+        srv/UpdateNetworkPoint.srv
+        srv/UpdateNetworkPoints.srv
+        srv/UpdateTask.srv
+        srv/UpdateWaypoint.srv
+        srv/ValidateNetworkMap.srv
+    DEPENDENCIES
+        clearpath_navigation_msgs
 )
 
-add_message_files(
-  FILES
-    NetworkEdgeReq.msg
-    NetworkMapValidityState.msg
-    NetworkMapState.msg
-    StorageState.msg
-)
+ament_package()
 
-add_service_files(
-  FILES
-    AddNetworkEdge.srv
-    AddNetworkPoint.srv
-    AddNetworkPath.srv
-    AddRemoveById.srv
-    CloneMission.srv
-    CloneNetworkMap.srv
-    CloneNetworkMission.srv
-    CreateMission.srv
-    CreateNetworkMap.srv
-    CreateNetworkMission.srv
-    CreateTask.srv
-    CreateWaypoint.srv
-    DeleteById.srv
-    DeleteEverything.srv
-    DeleteMultiple.srv
-    ExportData.srv
-    GetAllMissions.srv
-    GetAllNetworkMaps.srv
-    GetAllNetworkMissions.srv
-    GetAllTasks.srv
-    GetAllWaypoints.srv
-    GetEverything.srv
-    GetMission.srv
-    GetNetworkMap.srv
-    GetNetworkMission.srv
-    GetTask.srv
-    GetWaypoint.srv
-    ImportData.srv
-    ImportMission.srv
-    ImportNetworkMap.srv
-    ImportNetworkMission.srv
-    SplitNetworkEdge.srv
-    UpdateMission.srv
-    UpdateNetworkEdge.srv
-    UpdateNetworkEdges.srv
-    UpdateNetworkMap.srv
-    UpdateNetworkMission.srv
-    UpdateNetworkPoint.srv
-    UpdateNetworkPoints.srv
-    UpdateTask.srv
-    UpdateWaypoint.srv
-    ValidateNetworkMap.srv
-)
-
-generate_messages(
-  DEPENDENCIES
-    clearpath_navigation_msgs
-    std_msgs
-)
-
-catkin_package(
-)
-
-include_directories(
+install(FILES
+  DESTINATION include/${PROJECT_NAME}
 )

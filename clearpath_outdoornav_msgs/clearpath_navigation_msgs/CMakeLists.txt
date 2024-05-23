@@ -1,86 +1,63 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_navigation_msgs)
 
 ## Find catkin macros and libraries
-find_package(catkin REQUIRED
-  COMPONENTS
-    actionlib_msgs
-    geometry_msgs
-    message_generation
-    nav_msgs
-    std_msgs
+
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        action/ExecuteMissionByUuid.action
+        action/ExecuteNetworkGoTo.action
+        action/ExecuteNetworkMissionByUuid.action
+        action/GetWaypointPath.action
+        action/Mission.action
+        action/RecordPath.action
+        action/RunNetworkGoToPlanner.action
+        action/RunNetworkMissionPreviewer.action
+        action/SmoothPath.action
+        action/UITask.action
+        msg/AutonomyStatus.msg
+        msg/DistanceToGoal.msg
+        msg/Metrics.msg
+        msg/Mission.msg
+        msg/MissionStatus.msg
+        msg/MotionState.msg
+        msg/NavigationState.msg
+        msg/NetworkEdge.msg
+        msg/NetworkGoalState.msg
+        msg/NetworkMap.msg
+        msg/NetworkMission.msg
+        msg/NetworkMissionSegment.msg
+        msg/NetworkPoint.msg
+        msg/OdomIntent.msg
+        msg/PointVector.msg
+        msg/Progress.msg
+        msg/ScanPoints.msg
+        msg/Task.msg
+        msg/TrackError.msg
+        msg/Vector2D.msg
+        msg/Vector2D64.msg
+        msg/Waypoint.msg
+        msg/WaypointStatus.msg
+        srv/AutonomyTaskSrv.srv
+        srv/SetDelayCompensation.srv
+        srv/SetPathShifter.srv
+        srv/SetPathSmoother.srv
+        srv/SetStopDistance.srv
+    DEPENDENCIES
+        std_msgs
+        geometry_msgs
+        nav_msgs
 )
 
-add_message_files(
-  FILES
-    AutonomyStatus.msg
-    DistanceToGoal.msg
-    NetworkEdge.msg
-    NetworkGoalState.msg
-    NetworkMap.msg
-    NetworkMission.msg
-    NetworkMissionSegment.msg
-    NetworkPoint.msg
-    Metrics.msg
-    Mission.msg
-    MissionStatus.msg
-    MotionState.msg
-    NavigationState.msg
-    OdomIntent.msg
-    PointVector.msg
-    Progress.msg
-    ScanPoints.msg
-    Task.msg
-    TrackError.msg
-    Vector2D.msg
-    Vector2D64.msg
-    Waypoint.msg
-    WaypointStatus.msg
-)
-
-add_service_files(
-  FILES
-    AutonomyTaskSrv.srv
-    SetDelayCompensation.srv
-    SetPathShifter.srv
-    SetPathSmoother.srv
-    SetStopDistance.srv
-)
-
-## Add actions
-add_action_files(
-  DIRECTORY
-    action
-  FILES
-    ExecuteMissionByUuid.action
-    ExecuteNetworkGoTo.action
-    ExecuteNetworkMissionByUuid.action
-    GetWaypointPath.action
-    Mission.action
-    RunNetworkGoToPlanner.action
-    RunNetworkMissionPreviewer.action
-    RecordPath.action
-    SmoothPath.action
-    UITask.action
-)
-
-generate_messages(
-  DEPENDENCIES
-    actionlib_msgs
-    geometry_msgs
-    nav_msgs
-    std_msgs
-)
-
-catkin_package(
-  CATKIN_DEPENDS
-    actionlib_msgs
-    geometry_msgs
-    message_runtime
-    nav_msgs
-    std_msgs
-)
+ament_package()
 
 install(FILES
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  DESTINATION include/${PROJECT_NAME}
 )

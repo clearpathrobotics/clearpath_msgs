@@ -1,32 +1,22 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_safety_msgs)
 
 ## Find catkin macros and libraries
-find_package(catkin REQUIRED
-  COMPONENTS
-    message_generation
-    std_msgs
+
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        msg/AssistedTeleopState.msg
+        msg/ObstacleMap.msg
+        msg/Safety.msg
+        msg/WatchdogStatus.msg
 )
 
-add_message_files(
-  FILES
-    AssistedTeleopState.msg
-    ObstacleMap.msg
-    Safety.msg
-    WatchdogStatus.msg
-)
-
-generate_messages(
-  DEPENDENCIES
-    std_msgs
-)
-
-catkin_package(
-  CATKIN_DEPENDS
-    message_runtime
-    std_msgs
-)
+ament_package()
 
 install(FILES
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  DESTINATION include/${PROJECT_NAME}
 )

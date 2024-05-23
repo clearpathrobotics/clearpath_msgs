@@ -1,59 +1,38 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_dock_msgs)
 
 ## Find catkin macros and libraries
-find_package(catkin REQUIRED
-  COMPONENTS
-    actionlib_msgs
-    clearpath_navigation_msgs
-    message_generation
-    geometry_msgs
-    std_msgs
+
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(clearpath_navigation_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        action/LocalDock.action
+        action/LocalUndock.action
+        action/NetworkDock.action
+        action/RadiusDock.action
+        msg/DockInfo.msg
+        msg/DockProperties.msg
+        msg/DockState.msg
+        msg/TargetTrackerState.msg
+        srv/AddDock.srv
+        srv/ExportData.srv
+        srv/GetDockByUuid.srv
+        srv/ImportData.srv
+        srv/RemoveDock.srv
+        srv/SetDockLocationById.srv
+        srv/SetDockLocationByName.srv
+    DEPENDENCIES
+        geometry_msgs
+        clearpath_navigation_msgs
 )
 
-add_message_files(
-  FILES
-    DockInfo.msg
-    DockProperties.msg
-    DockState.msg
-    TargetTrackerState.msg
-)
-
-add_service_files(
-  FILES
-    AddDock.srv
-    ExportData.srv
-    GetDockByUuid.srv
-    ImportData.srv
-    RemoveDock.srv
-    SetDockLocationById.srv
-    SetDockLocationByName.srv
-)
-
-## Add actions
-add_action_files(
-  DIRECTORY
-    action
-  FILES
-    LocalDock.action
-    LocalUndock.action
-    NetworkDock.action
-    RadiusDock.action
-)
-
-generate_messages(
-  DEPENDENCIES
-    actionlib_msgs
-    clearpath_navigation_msgs
-    geometry_msgs
-    std_msgs
-)
-
-catkin_package(
-  CATKIN_DEPENDS
-    message_runtime
-)
+ament_package()
 
 install(FILES
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  DESTINATION include/${PROJECT_NAME}
 )

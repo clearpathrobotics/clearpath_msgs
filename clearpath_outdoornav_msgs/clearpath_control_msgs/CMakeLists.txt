@@ -1,37 +1,23 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_control_msgs)
 
 ## Find catkin macros and libraries
-find_package(catkin REQUIRED
-  COMPONENTS
-    message_generation
-    std_msgs
+
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        msg/AutonomySync.msg
+        msg/ControlMode.msg
+        msg/ControlSelectionState.msg
+        msg/ControlState.msg
+        srv/SetControlMode.srv
 )
 
-add_message_files(
-  FILES
-    AutonomySync.msg
-    ControlSelectionState.msg
-    ControlState.msg
-    ControlMode.msg
-)
-
-add_service_files(
-  FILES
-    SetControlMode.srv
-)
-
-generate_messages(
-  DEPENDENCIES
-    std_msgs
-)
-
-catkin_package(
-  CATKIN_DEPENDS
-    message_runtime
-    std_msgs
-)
+ament_package()
 
 install(FILES
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  DESTINATION include/${PROJECT_NAME}
 )

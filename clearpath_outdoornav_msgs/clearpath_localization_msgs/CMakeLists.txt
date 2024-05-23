@@ -1,59 +1,36 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(clearpath_localization_msgs)
 
 ## Find catkin macros and libraries
-find_package(catkin REQUIRED
-  COMPONENTS
-    actionlib_msgs
-    geometry_msgs
-    message_generation
-    sensor_msgs
-    std_msgs
+
+find_package(rosidl_default_generators REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+rosidl_generate_interfaces(
+    ${PROJECT_NAME}
+        action/SurveyBaseStation.action
+        msg/GNSSStatus.msg
+        msg/LocalizationStatus.msg
+        msg/SurveyProperties.msg
+        msg/XvnStatus.msg
+        srv/ConvertCartesianToLatLon.srv
+        srv/ConvertCartesianToLatLonArray.srv
+        srv/ConvertLatLonToCartesian.srv
+        srv/ConvertLatLonToCartesianArray.srv
+        srv/ResetLocalization.srv
+        srv/SetDatum.srv
+    DEPENDENCIES
+        std_msgs
+        geometry_msgs
+        sensor_msgs
 )
 
-add_message_files(
-  FILES
-    GNSSStatus.msg
-    LocalizationStatus.msg
-    SurveyProperties.msg
-    XvnStatus.msg
-)
-
-## Add actions
-add_action_files(
-  DIRECTORY
-    action
-  FILES
-    SurveyBaseStation.action
-)
-
-add_service_files(
-  FILES
-    ConvertCartesianToLatLon.srv
-    ConvertCartesianToLatLonArray.srv
-    ConvertLatLonToCartesian.srv
-    ConvertLatLonToCartesianArray.srv
-    ResetLocalization.srv
-    SetDatum.srv
-)
-
-generate_messages(
-  DEPENDENCIES
-    actionlib_msgs
-    geometry_msgs
-    sensor_msgs
-    std_msgs
-)
-
-catkin_package(
-  CATKIN_DEPENDS
-    actionlib_msgs
-    geometry_msgs
-    message_runtime
-    sensor_msgs
-    std_msgs
-)
+ament_package()
 
 install(FILES
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  DESTINATION include/${PROJECT_NAME}
 )
