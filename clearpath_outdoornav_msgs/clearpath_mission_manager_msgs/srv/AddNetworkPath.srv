@@ -1,4 +1,4 @@
-# The lat-lon locations of the points to add
+# The lat-lon locations of the points to add (in decimal degrees)
 float64[] latitudes
 float64[] longitudes
 

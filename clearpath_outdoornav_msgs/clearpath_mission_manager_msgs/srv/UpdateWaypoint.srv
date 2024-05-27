@@ -4,10 +4,10 @@ string uuid
 # The human-readable name for the Waypoint
 string name
 
-# The latitude of the Waypoint in degrees
+# The latitude of the Waypoint in decimal degrees
 float64 latitude
 
-# The longitude of the Waypoint in degrees
+# The longitude of the Waypoint in decimal degrees
 float64 longitude
 
 # The compass heading of the Waypoint in degrees

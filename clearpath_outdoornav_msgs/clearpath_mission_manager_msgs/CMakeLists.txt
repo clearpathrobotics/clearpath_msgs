@@ -22,14 +22,18 @@ add_service_files(
     AddNetworkPoint.srv
     AddNetworkPath.srv
     AddRemoveById.srv
+    AddRemoveTag.srv
     CloneMission.srv
     CloneNetworkMap.srv
     CloneNetworkMission.srv
+    ClonePointOfInterest.srv
     CreateMission.srv
     CreateNetworkMap.srv
     CreateNetworkMission.srv
+    CreatePointOfInterest.srv
     CreateTask.srv
     CreateWaypoint.srv
+    CreateWaypointFromPoi.srv
     DeleteById.srv
     DeleteEverything.srv
     DeleteMultiple.srv
@@ -37,12 +41,14 @@ add_service_files(
     GetAllMissions.srv
     GetAllNetworkMaps.srv
     GetAllNetworkMissions.srv
+    GetAllPointsOfInterest.srv
     GetAllTasks.srv
     GetAllWaypoints.srv
     GetEverything.srv
     GetMission.srv
     GetNetworkMap.srv
     GetNetworkMission.srv
+    GetPointOfInterest.srv
     GetTask.srv
     GetWaypoint.srv
     ImportData.srv
@@ -57,6 +63,7 @@ add_service_files(
     UpdateNetworkMission.srv
     UpdateNetworkPoint.srv
     UpdateNetworkPoints.srv
+    UpdatePointOfInterest.srv
     UpdateTask.srv
     UpdateWaypoint.srv
     ValidateNetworkMap.srv

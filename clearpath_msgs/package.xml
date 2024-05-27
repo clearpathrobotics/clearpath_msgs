@@ -19,6 +19,7 @@
   <exec_depend>warthog_msgs</exec_depend>
 
   <!-- OutdoorNav dependencies -->
+  <exec_depend>clearpath_camera_msgs</exec_depend>
   <exec_depend>clearpath_configuration_msgs</exec_depend>
   <exec_depend>clearpath_control_msgs</exec_depend>
   <exec_depend>clearpath_dock_msgs</exec_depend>

@@ -27,6 +27,7 @@ add_message_files(
     MotionState.msg
     NavigationState.msg
     OdomIntent.msg
+    PointOfInterest.msg
     PointVector.msg
     Progress.msg
     ScanPoints.msg
@@ -57,6 +58,7 @@ add_action_files(
     ExecuteNetworkMissionByUuid.action
     GetWaypointPath.action
     Mission.action
+    NetworkGoToPOI.action
     RunNetworkGoToPlanner.action
     RunNetworkMissionPreviewer.action
     RecordPath.action
