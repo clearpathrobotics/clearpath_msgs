@@ -3,4 +3,4 @@
 string uuid
 
 # The time until the schedule starts (rounded to the nearest second)
-duration time_to_start
+builtin_interfaces/Duration time_to_start

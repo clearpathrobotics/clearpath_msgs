@@ -3,8 +3,8 @@ project(clearpath_mission_scheduler_msgs)
 
 find_package(rosidl_default_generators REQUIRED)
 find_package(ament_cmake REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 find_package(clearpath_navigation_msgs REQUIRED)
-find_package(std_msgs REQUIRED)
 set(CMAKE_CXX_STANDARD 17)
 
 rosidl_generate_interfaces(
@@ -24,6 +24,7 @@ rosidl_generate_interfaces(
         srv/ImportData.srv
         srv/UpdateSchedule.srv
     DEPENDENCIES
+        builtin_interfaces
         clearpath_navigation_msgs
 )
 

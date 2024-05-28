@@ -33,5 +33,5 @@ uint32 outcome
 string message
 nav_msgs/Path path
 float64 cost
-std_msgs/Duration planning_time
+builtin_interfaces/Duration planning_time
 ---

@@ -13,4 +13,4 @@ uint8 UNMANNED = 8
 
 # Is the server currently active
 uint8 status
-uint8[] missionType
+uint8[] mission_type
