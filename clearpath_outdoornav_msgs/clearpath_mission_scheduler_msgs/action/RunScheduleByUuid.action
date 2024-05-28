@@ -5,7 +5,7 @@
 string uuid
 
 # Wait this long before starting the schedule
-duration delay
+builtin_interfaces/Duration delay
 ---
 # Did the schedule terminate successfully?
 bool success

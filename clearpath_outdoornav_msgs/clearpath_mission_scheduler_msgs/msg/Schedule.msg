@@ -27,7 +27,7 @@ uint8 mode
 uint8 loop_repeats
 
 # In MODE_LOOP, how long do we wait between executions?
-duration loop_interval
+builtin_interfaces/Duration loop_interval
 
 # The ordered list of Mission UUIDs to execute
 string[] mission_ids
@@ -38,7 +38,7 @@ float32 min_battery
 
 # If the missions take longer than this to execute, assume the schedule has failed and alert the user
 # Set to zero to disable the timeout
-duration timeout
+builtin_interfaces/Duration timeout
 
 # Is this schedule enabled?
 # Only enabled schedules will execute
