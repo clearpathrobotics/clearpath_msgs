@@ -25,6 +25,7 @@ rosidl_generate_interfaces(
         srv/CreatePointOfInterest.srv
         srv/CreateTask.srv
         srv/CreateWaypoint.srv
+        srv/CreateWaypointFromPoi.srv
         srv/DeleteById.srv
         srv/DeleteEverything.srv
         srv/DeleteMultiple.srv
