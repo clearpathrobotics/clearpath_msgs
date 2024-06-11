@@ -37,6 +37,7 @@ rosidl_generate_interfaces(
         msg/NetworkMissionSegment.msg
         msg/NetworkPoint.msg
         msg/OdomIntent.msg
+        msg/PointOfInterest.msg
         msg/PointVector.msg
         msg/Progress.msg
         msg/ScanPoints.msg

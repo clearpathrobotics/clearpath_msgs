@@ -22,6 +22,7 @@ rosidl_generate_interfaces(
         srv/CreateMission.srv
         srv/CreateNetworkMap.srv
         srv/CreateNetworkMission.srv
+        srv/CreatePointOfInterest.srv
         srv/CreateTask.srv
         srv/CreateWaypoint.srv
         srv/DeleteById.srv
@@ -31,12 +32,14 @@ rosidl_generate_interfaces(
         srv/GetAllMissions.srv
         srv/GetAllNetworkMaps.srv
         srv/GetAllNetworkMissions.srv
+        srv/GetAllPointsOfInterest.srv
         srv/GetAllTasks.srv
         srv/GetAllWaypoints.srv
         srv/GetEverything.srv
         srv/GetMission.srv
         srv/GetNetworkMap.srv
         srv/GetNetworkMission.srv
+        srv/GetPointOfInterest.srv
         srv/GetTask.srv
         srv/GetWaypoint.srv
         srv/ImportData.srv
@@ -51,6 +54,7 @@ rosidl_generate_interfaces(
         srv/UpdateNetworkMission.srv
         srv/UpdateNetworkPoint.srv
         srv/UpdateNetworkPoints.srv
+        srv/UpdatePointOfInterest.srv
         srv/UpdateTask.srv
         srv/UpdateWaypoint.srv
         srv/ValidateNetworkMap.srv
