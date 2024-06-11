@@ -16,6 +16,7 @@ rosidl_generate_interfaces(
         srv/AddNetworkPath.srv
         srv/AddNetworkPoint.srv
         srv/AddRemoveById.srv
+        srv/AddRemoveTag.srv
         srv/CloneMission.srv
         srv/CloneNetworkMap.srv
         srv/CloneNetworkMission.srv
