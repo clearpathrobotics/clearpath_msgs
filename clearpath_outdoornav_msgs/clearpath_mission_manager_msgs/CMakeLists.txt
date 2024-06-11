@@ -20,6 +20,7 @@ rosidl_generate_interfaces(
         srv/CloneMission.srv
         srv/CloneNetworkMap.srv
         srv/CloneNetworkMission.srv
+        srv/ClonePointOfInterest.srv
         srv/CreateMission.srv
         srv/CreateNetworkMap.srv
         srv/CreateNetworkMission.srv
