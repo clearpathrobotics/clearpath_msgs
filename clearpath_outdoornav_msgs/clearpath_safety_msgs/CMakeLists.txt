@@ -11,9 +11,11 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     AssistedTeleopState.msg
+    DeviceWatchdogList.msg
     ObstacleMap.msg
     Safety.msg
-    WatchdogStatus.msg
+    Watchdog.msg
+    WatchdogState.msg
 )
 
 generate_messages(
