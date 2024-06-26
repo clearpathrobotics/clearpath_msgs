@@ -1,0 +1,7 @@
+
+string device
+string type
+uint8 recovery
+
+---
+bool success

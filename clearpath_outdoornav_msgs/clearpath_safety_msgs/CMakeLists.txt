@@ -18,6 +18,11 @@ add_message_files(
     WatchdogState.msg
 )
 
+add_service_files(
+  FILES
+    UpdateRecovery.srv
+)
+
 generate_messages(
   DEPENDENCIES
     std_msgs
