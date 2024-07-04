@@ -4,6 +4,15 @@ Changelog for package clearpath_camera_msgs
 
 Forthcoming
 -----------
+* Changes
+* Merge pull request `#46 <https://github.com/clearpathrobotics/clearpath_msgs/issues/46>`_ from clearpathrobotics/0.13/features
+  0.13/features
+* fix endline
+* Merge remote-tracking branch 'refs/remotes/origin/poi' into 0.13/features
+* added zoom to inspect poi action
+* create new camera msg package with InspectPOI action
+* Contributors: Chris Iverach-Brereton, José Mastrangelo, Stephen Phillips, jmastrangelo-cpr
+
 * Initial release of clearpath_camera_msgs
 * Added zoom to inspect POI action
 * Create new camera msg package with InspectPOI action

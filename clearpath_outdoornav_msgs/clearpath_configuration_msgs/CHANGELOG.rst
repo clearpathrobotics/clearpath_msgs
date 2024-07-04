@@ -2,6 +2,9 @@
 Changelog for package clearpath_configuration_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.9 (2024-03-14)
 ------------------
 
