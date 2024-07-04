@@ -2,8 +2,8 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.0 (2024-07-04)
+-------------------
 * Merge pull request `#46 <https://github.com/clearpathrobotics/clearpath_msgs/issues/46>`_ from clearpathrobotics/0.13/features
   0.13/features
 * Merge remote-tracking branch 'refs/remotes/origin/poi' into 0.13/features

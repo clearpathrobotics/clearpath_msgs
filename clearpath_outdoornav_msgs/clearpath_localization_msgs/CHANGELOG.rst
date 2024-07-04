@@ -2,8 +2,8 @@
 Changelog for package clearpath_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.0 (2024-07-04)
+-------------------
 * Add: XvnStatus.msg for when XVN is used as localization sensor
   - Provides information on current position/heading + confidence as well as other XVN feature statuses (e.g., IMU bias convergence)
 * Contributors: Stephen Phillips
