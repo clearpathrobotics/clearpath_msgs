@@ -11,16 +11,21 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     AssistedTeleopState.msg
-    DeviceWatchdogList.msg
+    HeartbeatConfig.msg
+    InclinationConfig.msg
+    NodeletStatusConfig.msg
+    NodeStatusConfig.msg
     ObstacleMap.msg
     Safety.msg
-    Watchdog.msg
+    TopicDataConfig.msg
+    WatchdogConfig.msg
     WatchdogState.msg
+    WatchdogStatus.msg
 )
 
 add_service_files(
   FILES
-    UpdateRecovery.srv
+    UpdateInclinationWatchdog.srv
 )
 
 generate_messages(
