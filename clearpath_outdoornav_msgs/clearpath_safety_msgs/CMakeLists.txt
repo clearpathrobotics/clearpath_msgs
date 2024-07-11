@@ -18,6 +18,7 @@ add_message_files(
     ObstacleMap.msg
     Safety.msg
     TopicDataConfig.msg
+    Watchdog.msg
     WatchdogConfig.msg
     WatchdogState.msg
     WatchdogStatus.msg
