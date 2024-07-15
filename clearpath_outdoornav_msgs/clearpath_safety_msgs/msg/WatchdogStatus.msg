@@ -2,7 +2,7 @@
 # has been triggered or not and the recovery taken.
 
 
-string type
-string component
+string name
 bool triggered
 string trigger_message
+string action

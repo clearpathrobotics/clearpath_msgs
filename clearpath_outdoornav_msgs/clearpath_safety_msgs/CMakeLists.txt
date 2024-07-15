@@ -11,17 +11,19 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     AssistedTeleopState.msg
-    HeartbeatConfig.msg
-    InclinationConfig.msg
-    NodeletStatusConfig.msg
-    NodeStatusConfig.msg
+
     ObstacleMap.msg
     Safety.msg
-    TopicDataConfig.msg
-    Watchdog.msg
-    WatchdogConfig.msg
-    WatchdogState.msg
+    WatchdogConfigArray.msg
+    WatchdogConfigCommon.msg
+    WatchdogConfigCommunication.msg
+    WatchdogConfigHeartbeat.msg
+    WatchdogConfigInclination.msg
+    WatchdogConfigNodeletStatus.msg
+    WatchdogConfigNodeStatus.msg
+    WatchdogConfigTopicData.msg
     WatchdogStatus.msg
+    WatchdogStatusArray.msg
 )
 
 add_service_files(

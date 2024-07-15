@@ -2,4 +2,4 @@
 # monitoring and what action has been taken to recover from an error
 
 std_msgs/Header header
-WatchdogStatus[] watchdogs
+WatchdogStatus[] statuses

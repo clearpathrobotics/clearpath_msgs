@@ -1,10 +1,5 @@
 
-bool enabled
-
-float32 roll_limit
-float32 pitch_limit
-string topic
-string on_trigger_action
+WatchdogConfigInclination config
 
 ---
 bool success
