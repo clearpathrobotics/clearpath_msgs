@@ -13,6 +13,12 @@ find_package(catkin REQUIRED
 #  FILES
 #)
 
+add_service_files(
+  FILES
+    q62AreaZoom.srv
+)
+
+
 ## Add actions
 add_action_files(
   DIRECTORY
