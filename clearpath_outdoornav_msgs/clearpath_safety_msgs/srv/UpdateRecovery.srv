@@ -1,7 +1,0 @@
-
-string device
-string type
-string recovery
-
----
-bool success

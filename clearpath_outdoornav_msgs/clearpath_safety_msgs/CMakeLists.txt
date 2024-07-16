@@ -28,8 +28,13 @@ add_message_files(
 
 add_service_files(
   FILES
-    UpdateInclinationWatchdog.srv
-)
+  UpdateCommunicationWatchdog.srv
+  UpdateHeartbeatWatchdog.srv
+  UpdateInclinationWatchdog.srv
+  UpdateNodeletStatusWatchdog.srv
+  UpdateNodeStatusWatchdog.srv
+  UpdateTopicDataWatchdog.srv
+  )
 
 generate_messages(
   DEPENDENCIES
