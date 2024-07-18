@@ -11,7 +11,6 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
     AssistedTeleopState.msg
-
     ObstacleMap.msg
     Safety.msg
     WatchdogConfigArray.msg
@@ -28,12 +27,14 @@ add_message_files(
 
 add_service_files(
   FILES
-  UpdateCommunicationWatchdog.srv
-  UpdateHeartbeatWatchdog.srv
-  UpdateInclinationWatchdog.srv
-  UpdateNodeletStatusWatchdog.srv
-  UpdateNodeStatusWatchdog.srv
-  UpdateTopicDataWatchdog.srv
+    AddWatchdog.srv
+    RemoveWatchdog.srv
+    UpdateCommunicationWatchdog.srv
+    UpdateHeartbeatWatchdog.srv
+    UpdateInclinationWatchdog.srv
+    UpdateNodeletStatusWatchdog.srv
+    UpdateNodeStatusWatchdog.srv
+    UpdateTopicDataWatchdog.srv
   )
 
 generate_messages(
