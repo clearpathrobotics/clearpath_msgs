@@ -27,7 +27,13 @@ add_message_files(
 
 add_service_files(
   FILES
-    AddWatchdog.srv
+    AddCommunicationWatchdog.srv
+    AddHeartbeatWatchdog.srv
+    AddInclinationWatchdog.srv
+    AddNodeletStatusWatchdog.srv
+    AddNodeStatusWatchdog.srv
+    AddNumPointsWatchdog.srv
+    AddTopicDataWatchdog.srv
     RemoveWatchdog.srv
     UpdateCommunicationWatchdog.srv
     UpdateHeartbeatWatchdog.srv
