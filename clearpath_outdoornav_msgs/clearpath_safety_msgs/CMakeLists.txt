@@ -20,6 +20,7 @@ add_message_files(
     WatchdogConfigInclination.msg
     WatchdogConfigNodeletStatus.msg
     WatchdogConfigNodeStatus.msg
+    WatchdogConfigRtkFix.msg
     WatchdogConfigTopicData.msg
     WatchdogStatus.msg
     WatchdogStatusArray.msg
@@ -33,6 +34,7 @@ add_service_files(
     AddNodeletStatusWatchdog.srv
     AddNodeStatusWatchdog.srv
     AddNumPointsWatchdog.srv
+    AddRtkFixWatchdog.srv
     AddTopicDataWatchdog.srv
     RemoveWatchdog.srv
     UpdateCommunicationWatchdog.srv
@@ -40,6 +42,7 @@ add_service_files(
     UpdateInclinationWatchdog.srv
     UpdateNodeletStatusWatchdog.srv
     UpdateNodeStatusWatchdog.srv
+    UpdateRtkFixWatchdog.srv
     UpdateTopicDataWatchdog.srv
   )
 
