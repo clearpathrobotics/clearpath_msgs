@@ -2,6 +2,23 @@
 Changelog for package clearpath_mission_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2024-07-04)
+-------------------
+* Merge pull request `#46 <https://github.com/clearpathrobotics/clearpath_msgs/issues/46>`_ from clearpathrobotics/0.13/features
+  0.13/features
+* Merge remote-tracking branch 'refs/remotes/origin/poi' into 0.13/features
+* Add enable_heading to POI create/edit messages
+* Add new Mission Manager messages & services related to POI creation/deletion/modification (`#42 <https://github.com/clearpathrobotics/clearpath_msgs/issues/42>`_)
+  * Add tag constants for PTZ and GoTo labels. Add initial services for creating & updating POIs, creating Waypoints from POIs
+  * Add accessors for the points of interest
+  * Add the clone point of interest service
+  * Add the new_name field to the POI clone service
+  * Add service for adding/removing tags
+* Merge pull request `#41 <https://github.com/clearpathrobotics/clearpath_msgs/issues/41>`_ from clearpathrobotics/ONAV-2371
+  added point of interest message
+* added point of interest message
+* Contributors: Chris Iverach-Brereton, José Mastrangelo, Stephen Phillips, jmastrangelo-cpr
+
 0.9.9 (2024-03-14)
 ------------------
 * Message updates for onav-0.12 (`#34 <https://github.com/clearpathrobotics/clearpath_msgs/issues/34>`_)

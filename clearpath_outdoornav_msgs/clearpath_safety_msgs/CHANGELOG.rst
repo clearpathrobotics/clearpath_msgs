@@ -2,6 +2,13 @@
 Changelog for package clearpath_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2024-07-04)
+-------------------
+* refactor (`#39 <https://github.com/clearpathrobotics/clearpath_msgs/issues/39>`_)
+* remove bypass service. no longer needed as we will be using std_srvs/SetBool (`#38 <https://github.com/clearpathrobotics/clearpath_msgs/issues/38>`_)
+* added error state to assisted teleop (`#37 <https://github.com/clearpathrobotics/clearpath_msgs/issues/37>`_)
+* Contributors: jmastrangelo-cpr
+
 0.9.9 (2024-03-14)
 ------------------
 

@@ -2,6 +2,11 @@
 Changelog for package clearpath_mission_scheduler_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2024-07-04)
+-------------------
+* Revert changes to support scheduling network of paths missions. This feature will be reintroduced in a future release (`#40 <https://github.com/clearpathrobotics/clearpath_msgs/issues/40>`_)
+* Contributors: Chris Iverach-Brereton
+
 0.9.9 (2024-03-14)
 ------------------
 

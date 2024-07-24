@@ -2,6 +2,37 @@
 Changelog for package clearpath_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2024-07-04)
+-------------------
+* Merge pull request `#46 <https://github.com/clearpathrobotics/clearpath_msgs/issues/46>`_ from clearpathrobotics/0.13/features
+  0.13/features
+* fix endline
+* 0.13/features: Changed the ptz constant for poi's
+* Merge remote-tracking branch 'refs/remotes/origin/poi' into 0.13/features
+* create new camera msg package with InspectPOI action
+* added InspectPOI action
+* consistency fix from network to map
+* Merge branch 'poi' of github.com:clearpathrobotics/clearpath_msgs into poi
+* Remove quotation marks around string constants; they are not needed
+* added network goto poi values
+* added a boolean enable_heading flag (`#44 <https://github.com/clearpathrobotics/clearpath_msgs/issues/44>`_)
+* Add new Mission Manager messages & services related to POI creation/deletion/modification (`#42 <https://github.com/clearpathrobotics/clearpath_msgs/issues/42>`_)
+  * Add tag constants for PTZ and GoTo labels. Add initial services for creating & updating POIs, creating Waypoints from POIs
+  * Add accessors for the points of interest
+  * Add the clone point of interest service
+  * Add the new_name field to the POI clone service
+  * Add service for adding/removing tags
+* Merge pull request `#41 <https://github.com/clearpathrobotics/clearpath_msgs/issues/41>`_ from clearpathrobotics/ONAV-2371
+  added point of interest message
+* added newline
+* added point of interest message
+* Add: Publish the robot's current high-level plan as part of NetworkGotoFeedback (`#36 <https://github.com/clearpathrobotics/clearpath_msgs/issues/36>`_)
+* Merge pull request `#35 <https://github.com/clearpathrobotics/clearpath_msgs/issues/35>`_ from clearpathrobotics/mod/onav_msg_updates
+  ONav message type changes
+* Add: Boolean '.paused' field to AutonomyStatus
+* Mod: Add result message + rename feedback.state to feedback.message for waypoint mission types
+* Contributors: Chris Iverach-Brereton, Drew O'Brien, José Mastrangelo, Stephen Phillips, Tony Baltovski, jmastrangelo-cpr, stephen-cpr
+
 0.9.9 (2024-03-14)
 ------------------
 * Message updates for onav-0.12 (`#34 <https://github.com/clearpathrobotics/clearpath_msgs/issues/34>`_)

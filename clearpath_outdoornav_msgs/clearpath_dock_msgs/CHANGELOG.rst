@@ -2,6 +2,9 @@
 Changelog for package clearpath_dock_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2024-07-04)
+-------------------
+
 0.9.9 (2024-03-14)
 ------------------
 * Message updates for onav-0.12 (`#34 <https://github.com/clearpathrobotics/clearpath_msgs/issues/34>`_)
