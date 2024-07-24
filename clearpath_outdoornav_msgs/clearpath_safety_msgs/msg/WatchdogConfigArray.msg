@@ -9,7 +9,7 @@ WatchdogConfigTopicData[] topic_data_config
 WatchdogConfigHeartbeat[] heartbeat_config
 # WatchdogConfigGNSSData[] gnss_data_config
 # WatchdogConfigCovariance[] covariance_config
-# WatchdogConfigRTKStatus[] rtk_data_config
+WatchdogConfigRtkFix[] rtk_fix_config
 WatchdogConfigInclination[] inclination_config
 # WatchdogConfigLiDARData[] lidar_data_config
 # WatchdogConfigNumPoints[] num_points_config
