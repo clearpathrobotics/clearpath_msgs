@@ -42,6 +42,7 @@ add_service_files(
     UpdateInclinationWatchdog.srv
     UpdateNodeletStatusWatchdog.srv
     UpdateNodeStatusWatchdog.srv
+    UpdateNumPointsWatchdog.srv
     UpdateRtkFixWatchdog.srv
     UpdateTopicDataWatchdog.srv
   )
