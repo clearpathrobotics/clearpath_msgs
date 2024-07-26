@@ -20,6 +20,7 @@ add_message_files(
     WatchdogConfigInclination.msg
     WatchdogConfigNodeletStatus.msg
     WatchdogConfigNodeStatus.msg
+    WatchdogConfigNumPoints.msg
     WatchdogConfigRtkFix.msg
     WatchdogConfigTopicData.msg
     WatchdogStatus.msg
