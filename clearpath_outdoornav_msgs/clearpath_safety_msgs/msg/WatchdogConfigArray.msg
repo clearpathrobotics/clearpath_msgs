@@ -7,10 +7,7 @@ WatchdogConfigNodeletStatus[] nodelet_status_config
 WatchdogConfigCommunication[] communication_config
 WatchdogConfigTopicData[] topic_data_config
 WatchdogConfigHeartbeat[] heartbeat_config
-# WatchdogConfigGNSSData[] gnss_data_config
 # WatchdogConfigCovariance[] covariance_config
 WatchdogConfigRtkFix[] rtk_fix_config
 WatchdogConfigInclination[] inclination_config
-# WatchdogConfigLiDARData[] lidar_data_config
-# WatchdogConfigNumPoints[] num_points_config
-# WatchdogConfigPercentagePoints[] percentage_points_config
+WatchdogConfigNumPoints[] num_points_config
