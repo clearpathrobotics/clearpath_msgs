@@ -21,6 +21,7 @@ add_message_files(
     WatchdogConfigNodeletStatus.msg
     WatchdogConfigNodeStatus.msg
     WatchdogConfigNumPoints.msg
+    WatchdogConfigOdomCovariance.msg
     WatchdogConfigRtkFix.msg
     WatchdogConfigTopicData.msg
     WatchdogStatus.msg
@@ -35,6 +36,7 @@ add_service_files(
     AddNodeletStatusWatchdog.srv
     AddNodeStatusWatchdog.srv
     AddNumPointsWatchdog.srv
+    AddOdomCovarianceWatchdog.srv
     AddRtkFixWatchdog.srv
     AddTopicDataWatchdog.srv
     RemoveWatchdog.srv
@@ -44,6 +46,7 @@ add_service_files(
     UpdateNodeletStatusWatchdog.srv
     UpdateNodeStatusWatchdog.srv
     UpdateNumPointsWatchdog.srv
+    UpdateOdomCovarianceWatchdog.srv
     UpdateRtkFixWatchdog.srv
     UpdateTopicDataWatchdog.srv
   )
