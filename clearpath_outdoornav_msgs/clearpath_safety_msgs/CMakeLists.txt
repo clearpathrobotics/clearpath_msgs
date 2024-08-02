@@ -13,8 +13,43 @@ add_message_files(
     AssistedTeleopState.msg
     ObstacleMap.msg
     Safety.msg
+    WatchdogConfigArray.msg
+    WatchdogConfigCommon.msg
+    WatchdogConfigCommunication.msg
+    WatchdogConfigHeartbeat.msg
+    WatchdogConfigInclination.msg
+    WatchdogConfigNodeletStatus.msg
+    WatchdogConfigNodeStatus.msg
+    WatchdogConfigNumPoints.msg
+    WatchdogConfigOdomCovariance.msg
+    WatchdogConfigRtkFix.msg
+    WatchdogConfigTopicData.msg
     WatchdogStatus.msg
+    WatchdogStatusArray.msg
 )
+
+add_service_files(
+  FILES
+    AddCommunicationWatchdog.srv
+    AddHeartbeatWatchdog.srv
+    AddInclinationWatchdog.srv
+    AddNodeletStatusWatchdog.srv
+    AddNodeStatusWatchdog.srv
+    AddNumPointsWatchdog.srv
+    AddOdomCovarianceWatchdog.srv
+    AddRtkFixWatchdog.srv
+    AddTopicDataWatchdog.srv
+    RemoveWatchdog.srv
+    UpdateCommunicationWatchdog.srv
+    UpdateHeartbeatWatchdog.srv
+    UpdateInclinationWatchdog.srv
+    UpdateNodeletStatusWatchdog.srv
+    UpdateNodeStatusWatchdog.srv
+    UpdateNumPointsWatchdog.srv
+    UpdateOdomCovarianceWatchdog.srv
+    UpdateRtkFixWatchdog.srv
+    UpdateTopicDataWatchdog.srv
+  )
 
 generate_messages(
   DEPENDENCIES

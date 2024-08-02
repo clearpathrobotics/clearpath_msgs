@@ -1,5 +1,8 @@
-# Watchdog status message containing information related to sensor monitoring, emergency stop and safety stops
+# The message definition for a Watchdog including the type of watchdog, whether it
+# has been triggered or not and the recovery taken.
 
-bool[] gps_watchdog_triggered
-bool[] lidar_watchdog_triggered
-bool[] camera_watchdog_triggered
+
+string name
+bool triggered
+string trigger_message
+string action
