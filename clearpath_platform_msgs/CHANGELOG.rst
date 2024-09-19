@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added needs_reset
+* Contributors: Roni Kreinin
+
 0.2.0 (2023-12-06)
 ------------------
 * Added charger connected status to Power message
