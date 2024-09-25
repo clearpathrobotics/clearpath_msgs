@@ -1,0 +1,3 @@
+WatchdogConfigCommon base_config
+string topic
+float32 timeout
