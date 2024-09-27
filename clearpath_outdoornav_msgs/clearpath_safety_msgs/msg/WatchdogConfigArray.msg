@@ -3,6 +3,7 @@
 
 
 WatchdogConfigCommunication[] communication_config
+WatchdogConfigEmergencyStop[] emergency_stop_config
 WatchdogConfigHeartbeat[] heartbeat_config
 WatchdogConfigInclination[] inclination_config
 WatchdogConfigNodeStatus[] node_status_config
