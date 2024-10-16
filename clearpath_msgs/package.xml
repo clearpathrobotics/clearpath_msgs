@@ -13,6 +13,27 @@
 
   <exec_depend>clearpath_platform_msgs</exec_depend>
 
+  <!-- OutdoorNav dependencies -->
+  <exec_depend>clearpath_configuration_msgs</exec_depend>
+  <exec_depend>clearpath_control_msgs</exec_depend>
+  <exec_depend>clearpath_dock_msgs</exec_depend>
+  <exec_depend>clearpath_localization_msgs</exec_depend>
+  <exec_depend>clearpath_mission_manager_msgs</exec_depend>
+  <exec_depend>clearpath_mission_scheduler_msgs</exec_depend>
+  <exec_depend>clearpath_navigation_msgs</exec_depend>
+  <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>clearpath_safety_msgs</exec_depend>
+
+  <!-- Autonomy task action dependencies -->
+  <!--
+    DISABLED
+    Eventually these packages will be bloomed to OSRF's build farm, but for now
+    they're not explicitly necessary
+  <exec_depend>audio_recorder_msgs</exec_depend>
+  <exec_depend>ptz_action_server_msgs</exec_depend>
+  <exec_depend>video_recorder_msgs</exec_depend>
+  -->
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>

@@ -1,0 +1,13 @@
+# Action for starting network mission previewer
+
+# goal
+string map_uuid
+string mission_uuid
+
+---
+# result
+bool success
+
+---
+# feedback
+clearpath_navigation_msgs/NetworkMissionSegment[] segments

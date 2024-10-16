@@ -1,0 +1,9 @@
+# Service definition to either create a new dock or update the location of an existing dock. 
+
+# The UUID of the dock whose location we are updating
+# If empty, a new dock is added with the random UUID and the name dockX, where X is the number of current docks
+string uuid
+---
+# True if the location was updated/added successfully, otherwise False
+bool success
+string message
