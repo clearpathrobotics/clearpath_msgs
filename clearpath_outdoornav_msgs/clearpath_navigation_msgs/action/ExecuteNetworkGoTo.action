@@ -18,6 +18,9 @@ uint8 code
 
 bool success
 string message
+uint16 NONE=0
+uint16 error_code
+string error_msg
 
 ---
 # feedback
