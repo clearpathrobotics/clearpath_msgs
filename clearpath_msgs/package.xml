@@ -11,6 +11,7 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <exec_depend>clearpath_motor_msgs</exec_depend>
   <exec_depend>clearpath_platform_msgs</exec_depend>
 
   <export>
