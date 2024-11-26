@@ -2,8 +2,8 @@
 Changelog for package clearpath_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2024-11-25)
+------------------
 * Added clearpath_motor_msgs dependency in clearpath_msgs
 * Contributors: Roni Kreinin
 
