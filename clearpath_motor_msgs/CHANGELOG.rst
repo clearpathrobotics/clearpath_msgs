@@ -2,8 +2,8 @@
 Changelog for package clearpath_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2024-11-25)
+------------------
 * [clearpath_motor_msgs] Updated package version.
 * Initial clearpath_motor_msgs
 * Contributors: Luis Camero, Tony Baltovski
