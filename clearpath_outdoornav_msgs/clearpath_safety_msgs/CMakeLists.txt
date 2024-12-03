@@ -16,7 +16,6 @@ rosidl_generate_interfaces(
         msg/WatchdogConfigArray.msg
         msg/WatchdogConfigCommon.msg
         msg/WatchdogConfigCommunication.msg
-        msg/WatchdogConfigEmergencyStop.msg
         msg/WatchdogConfigHeartbeat.msg
         msg/WatchdogConfigInclination.msg
         msg/WatchdogConfigNodeletStatus.msg
@@ -25,10 +24,10 @@ rosidl_generate_interfaces(
         msg/WatchdogConfigOdomCovariance.msg
         msg/WatchdogConfigRtkFix.msg
         msg/WatchdogConfigTopicData.msg
+        msg/WatchdogConfigTrigger.msg
         msg/WatchdogStatus.msg
         msg/WatchdogStatusArray.msg
         srv/AddCommunicationWatchdog.srv
-        srv/AddEmergencyStopWatchdog.srv
         srv/AddHeartbeatWatchdog.srv
         srv/AddInclinationWatchdog.srv
         srv/AddNodeletStatusWatchdog.srv
@@ -37,9 +36,9 @@ rosidl_generate_interfaces(
         srv/AddOdomCovarianceWatchdog.srv
         srv/AddRtkFixWatchdog.srv
         srv/AddTopicDataWatchdog.srv
+        srv/AddTriggerWatchdog.srv
         srv/RemoveWatchdog.srv
         srv/UpdateCommunicationWatchdog.srv
-        srv/UpdateEmergencyStopWatchdog.srv
         srv/UpdateHeartbeatWatchdog.srv
         srv/UpdateInclinationWatchdog.srv
         srv/UpdateNodeletStatusWatchdog.srv
@@ -48,6 +47,7 @@ rosidl_generate_interfaces(
         srv/UpdateOdomCovarianceWatchdog.srv
         srv/UpdateRtkFixWatchdog.srv
         srv/UpdateTopicDataWatchdog.srv
+        srv/UpdateTriggerWatchdog.srv
     DEPENDENCIES
         std_msgs
 )
