@@ -2,8 +2,8 @@
 Changelog for package clearpath_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2025-01-13)
+------------------
 * A300 (`#63 <https://github.com/clearpathrobotics/clearpath_msgs/issues/63>`_)
   * Added Lynx messages and actions
   * Added A300 changes and enums
