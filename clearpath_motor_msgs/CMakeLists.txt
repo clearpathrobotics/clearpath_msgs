@@ -17,6 +17,15 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  action/LynxCalibrate.action
+  action/LynxUpdate.action
+  msg/LynxDebug.msg
+  msg/LynxFeedback.msg
+  msg/LynxMultiDebug.msg
+  msg/LynxMultiFeedback.msg
+  msg/LynxMultiStatus.msg
+  msg/LynxStatus.msg
+  msg/LynxSystemProtection.msg
   msg/PumaFeedback.msg
   msg/PumaStatus.msg
   msg/PumaMultiFeedback.msg

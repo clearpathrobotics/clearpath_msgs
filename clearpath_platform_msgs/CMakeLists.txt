@@ -25,6 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/RGB.msg
   msg/Status.msg
   msg/StopStatus.msg
+  msg/Temperature.msg
   srv/ConfigureMcu.srv
   DEPENDENCIES std_msgs builtin_interfaces
 )
