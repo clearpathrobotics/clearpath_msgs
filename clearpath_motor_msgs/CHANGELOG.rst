@@ -2,8 +2,8 @@
 Changelog for package clearpath_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2025-01-31)
+------------------
 * Added new error flags (`#66 <https://github.com/clearpathrobotics/clearpath_msgs/issues/66>`_)
 * Contributors: Roni Kreinin
 
