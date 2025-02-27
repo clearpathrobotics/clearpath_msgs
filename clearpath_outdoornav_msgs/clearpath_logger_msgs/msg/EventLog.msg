@@ -15,10 +15,10 @@ int32 STATE_DELETED = 2
 int32 state
 
 # The time the log started recording
-builtin_interfaces/Time start_time
+clearpath_logger_msgs/EventTime start_time
 
 # The time the log stopped recording
-builtin_interfaces/Time end_time
+clearpath_logger_msgs/EventTime end_time
 
 # This execution's unique ID
 string uuid

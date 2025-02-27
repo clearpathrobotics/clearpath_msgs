@@ -15,6 +15,7 @@ rosidl_generate_interfaces(
         msg/Event.msg
         msg/EventLog.msg
         msg/EventLogs.msg
+        msg/EventTime.msg
         srv/DeleteLog.srv
         srv/GetAllLogs.srv
         srv/DownloadLog.srv
