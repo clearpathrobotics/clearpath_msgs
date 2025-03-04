@@ -2,6 +2,25 @@
 
 std_msgs/Header header
 
+# Jackal (J100)
+uint8 J100_MCU=0
+uint8 J100_PCB=1
+
+# Dingo 1.0 (D100)
+uint8 D100_MCU=0
+uint8 D100_PCB=1
+
+# Dingo 1.5 (D150)
+uint8 D150_MCU=0
+uint8 D150_PCB=1
+
+# Warthog (W200)
+uint8 W200_MCU=0
+
+# Ridgeback (R100)
+uint8 R100_MCU=0
+uint8 R100_PCB=1
+
 # Common Core (CC01)
 uint8 CC01_MCU=0
 uint8 CC01_FAN1=1
