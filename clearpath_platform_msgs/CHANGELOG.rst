@@ -2,8 +2,8 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.0 (2025-03-11)
+------------------
 * Added temperature indices for all platforms (`#69 <https://github.com/clearpathrobotics/clearpath_msgs/issues/69>`_)
 * Contributors: Roni Kreinin
 
