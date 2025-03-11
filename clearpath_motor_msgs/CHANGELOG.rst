@@ -2,6 +2,12 @@
 Changelog for package clearpath_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Lynx Warning flags (`#68 <https://github.com/clearpathrobotics/clearpath_msgs/issues/68>`_)
+  * Added warning flags
+* Contributors: Roni Kreinin
+
 2.1.0 (2025-01-31)
 ------------------
 * Added new error flags (`#66 <https://github.com/clearpathrobotics/clearpath_msgs/issues/66>`_)
