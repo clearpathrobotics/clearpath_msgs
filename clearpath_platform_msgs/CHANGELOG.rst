@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Remove temperature fields from status message (`#72 <https://github.com/clearpathrobotics/clearpath_msgs/issues/72>`_)
+* Contributors: Roni Kreinin
+
 2.2.0 (2025-03-11)
 ------------------
 * Added temperature indices for all platforms (`#69 <https://github.com/clearpathrobotics/clearpath_msgs/issues/69>`_)
