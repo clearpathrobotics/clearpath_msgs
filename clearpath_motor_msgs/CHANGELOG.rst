@@ -2,6 +2,9 @@
 Changelog for package clearpath_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.2.1 (2025-03-18)
 ------------------
 
