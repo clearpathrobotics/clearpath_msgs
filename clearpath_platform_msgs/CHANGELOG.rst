@@ -2,8 +2,8 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.2 (2025-03-20)
+------------------
 * Merge pull request `#74 <https://github.com/clearpathrobotics/clearpath_msgs/issues/74>`_ from clearpathrobotics/feature/display_status
   Feature/display status
 * Contributors: Tony Baltovski
