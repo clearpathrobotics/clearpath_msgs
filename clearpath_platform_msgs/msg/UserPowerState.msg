@@ -1,32 +1,11 @@
 # User Power state
 
+std_msgs/Header header
+
 # Power rails
 uint8 CC01_USER_PWR_CTRL=0
 
 bool[] rails
-
-# User controlled outputs
-
-# Dingo 1.0 (D100)
-uint8 D100_AUX_OUT1=0
-uint8 D100_AUX_OUT2=1
-uint8 D100_AUX_OUT3=2
-
-# Dingo 1.5 (D150)
-uint8 D150_AUX_OUT1=0
-uint8 D150_AUX_OUT2=1
-uint8 D150_AUX_OUT3=2
-
-# CC01
-uint8 CC01_AUX_OUT1=0
-uint8 CC01_AUX_OUT2=1
-uint8 CC01_AUX_OUT3=2
-uint8 CC01_GPO0=3
-uint8 CC01_GPO1=4
-uint8 CC01_GPO2=5
-uint8 CC01_GPO3=6
-
-bool[] outputs
 
 # External user inputs
 
@@ -50,3 +29,26 @@ uint8 CC01_GPI2=5
 uint8 CC01_GPI3=6
 
 bool[] inputs
+
+# User controlled outputs
+
+# Dingo 1.0 (D100)
+uint8 D100_AUX_OUT1=0
+uint8 D100_AUX_OUT2=1
+uint8 D100_AUX_OUT3=2
+
+# Dingo 1.5 (D150)
+uint8 D150_AUX_OUT1=0
+uint8 D150_AUX_OUT2=1
+uint8 D150_AUX_OUT3=2
+
+# CC01
+uint8 CC01_AUX_OUT1=0
+uint8 CC01_AUX_OUT2=1
+uint8 CC01_AUX_OUT3=2
+uint8 CC01_GPO0=3
+uint8 CC01_GPO1=4
+uint8 CC01_GPO2=5
+uint8 CC01_GPO3=6
+
+bool[] outputs
