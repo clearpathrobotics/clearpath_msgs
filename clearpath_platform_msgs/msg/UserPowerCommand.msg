@@ -1,6 +1,4 @@
-# User Power control
-
-std_msgs/Header header
+# User Power command
 
 # Power rails. True enables them, False disables them.
 uint8 CC01_USER_PWR_CTRL=0
@@ -11,7 +9,7 @@ bool[] rails
 # Bit 1 sets the output to on/off
 # Bit 2-16 represent the toggle period in milliseconds
 # Toggle period of 0 implies no toggling
-# Minimum toggle period is 10ms
+# Toggle period precision is 10ms
 
 # Dingo 1.0 (D100)
 uint8 D100_AUX_OUT1=0
