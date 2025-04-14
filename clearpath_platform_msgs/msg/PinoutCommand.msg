@@ -1,14 +1,20 @@
-# User Power command
+# Pinout command
 
-# Power rails. True enables them, False disables them.
+# Power rails.
+
+# True enables them, False disables them.
+
+# CC01
 uint8 CC01_USER_PWR_CTRL=0
 
 bool[] rails
 
 # User controlled outputs.
+
 # Bit 1 sets the output to on/off
-# Bit 2-16 represent the toggle period in milliseconds
+# Bit 2-32 represent the toggle period in milliseconds
 # Toggle period of 0 implies no toggling
+# Minimum toggle period is 100ms
 # Toggle period precision is 10ms
 
 # Dingo 1.0 (D100)
@@ -30,4 +36,4 @@ uint8 CC01_GPO1=4
 uint8 CC01_GPO2=5
 uint8 CC01_GPO3=6
 
-uint16[] outputs
+uint32[] outputs

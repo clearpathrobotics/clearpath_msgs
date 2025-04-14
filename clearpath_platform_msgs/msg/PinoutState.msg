@@ -1,13 +1,15 @@
-# User Power state
+# Pinout state
 
 std_msgs/Header header
 
-# Power rails
+# Current power rail state
+
+# CC01
 uint8 CC01_USER_PWR_CTRL=0
 
 bool[] rails
 
-# External user inputs
+# Current input state
 
 # Dingo 1.0 (D100)
 uint8 D100_AUX_IN1=0
@@ -30,7 +32,7 @@ uint8 CC01_GPI3=6
 
 bool[] inputs
 
-# User controlled outputs
+# Current output state
 
 # Dingo 1.0 (D100)
 uint8 D100_AUX_OUT1=0
@@ -52,3 +54,7 @@ uint8 CC01_GPO2=5
 uint8 CC01_GPO3=6
 
 bool[] outputs
+
+# Current output toggle period
+
+uint32[] output_periods
