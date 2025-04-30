@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Pinout messages (`#75 <https://github.com/clearpathrobotics/clearpath_msgs/issues/75>`_)
+* Contributors: Roni Kreinin
+
 2.3.0 (2025-04-11)
 ------------------
 
