@@ -12,3 +12,6 @@ float32 voltage
 
 # Angular velocity of the wheel (rad/s).
 float32 velocity
+
+# Total travel of the wheel (rad).
+float32 travel
