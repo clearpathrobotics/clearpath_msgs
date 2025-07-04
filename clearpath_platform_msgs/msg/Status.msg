@@ -10,7 +10,7 @@ string hardware_id
 string firmware_version
 
 # Active firmware errors
-uint8[] firmware_errors
+uint16[] firmware_errors
 
 # Times since MCU power-on.
 builtin_interfaces/Duration mcu_uptime
