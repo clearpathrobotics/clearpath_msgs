@@ -4,7 +4,6 @@ std_msgs/Header header
 std_msgs/Time last_start
 std_msgs/String mission_uuid
 std_msgs/String map_uuid
-bool paused
 
 uint8 IDLE = 0
 uint8 MISSION_DIRECT = 1
