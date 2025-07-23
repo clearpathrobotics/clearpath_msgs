@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   action/LynxUpdate.action
   msg/LynxDebug.msg
   msg/LynxFeedback.msg
+  msg/LynxMotorProtection.msg
   msg/LynxMultiDebug.msg
   msg/LynxMultiFeedback.msg
   msg/LynxMultiStatus.msg
