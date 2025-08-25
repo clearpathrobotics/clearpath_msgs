@@ -2,6 +2,9 @@
 Changelog for package clearpath_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.6.0 (2025-07-04)
 ------------------
 * [clearpath_platform_msgs] Update Power.msg CC01 enums. (`#78 <https://github.com/clearpathrobotics/clearpath_msgs/issues/78>`_)
