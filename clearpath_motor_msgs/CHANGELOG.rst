@@ -2,8 +2,8 @@
 Changelog for package clearpath_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.7.0 (2025-08-25)
+------------------
 * Drivetrains (`#82 <https://github.com/clearpathrobotics/clearpath_msgs/issues/82>`_)
 * Contributors: Roni Kreinin
 
