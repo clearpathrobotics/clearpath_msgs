@@ -21,16 +21,16 @@ jobs:
         env: ${{matrix.env}}
 
   clearpath_msgs_src_ci:
-    name: Jazzy Clearpath Source
+    name: Humble Clearpath Source
     runs-on: ubuntu-latest
     container:
-      image: rostooling/setup-ros-docker:ubuntu-noble-latest
+      image: rostooling/setup-ros-docker:ubuntu-jammy-latest
     steps:
       - uses: actions/checkout@v3
       - uses: ros-tooling/action-ros-ci@v0.3
         id: action_ros_ci_step
         with:
-          target-ros2-distro: jazzy
+          target-ros2-distro: humble
           package-name: |
             clearpath_motor_msgs
             clearpath_msgs
