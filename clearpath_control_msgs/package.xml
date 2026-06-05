@@ -5,7 +5,7 @@
   <version>2.7.0</version>
   <description>Clearpath control interface messages</description>
   <maintainer email="natesh.narain@rockwellautomation.com">Natesh Narain</maintainer>
-  <license>Apache-2.0</license>
+  <license>BSD</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
