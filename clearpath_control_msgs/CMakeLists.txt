@@ -7,6 +7,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/StreamControl.msg
+  srv/PowerControl.srv
   DEPENDENCIES builtin_interfaces
 )
 

@@ -1,0 +1,6 @@
+# Service for controlling USB port power state.
+
+bool power_on  # true requests port power ON, false requests port power OFF
+---
+bool success
+string message
