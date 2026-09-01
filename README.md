@@ -24,7 +24,7 @@ flowchart LR
 ## Packages
 
 | Package | Description | Interfaces |
-|---|---|---|
+| --- | --- | --- |
 | `clearpath_msgs` | Metapackage aggregating the message packages. | — |
 | `clearpath_platform_msgs` | Base platform telemetry and commands (power, lights, fans, drive, stop status, MCU config). | `msg/` (e.g. `Power`, `Status`, `Lights`, `Drive`, `Feedback`, `StopStatus`), `srv/` (`ConfigureMcu`, `SetPinout`) |
 | `clearpath_motor_msgs` | Motor controller feedback/status for Lynx (current) and Puma (legacy) drivers. | `msg/` (e.g. `LynxFeedback`, `LynxStatus`, `PumaFeedback`), `action/` (`LynxCalibrate`, `LynxUpdate`) |
