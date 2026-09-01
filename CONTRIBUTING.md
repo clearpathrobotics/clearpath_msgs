@@ -70,6 +70,20 @@ colcon build --symlink-install
 For any interface you add or change, build and, where practical, run a downstream producer and
 consumer to confirm the type hashes match at runtime.
 
+## Continuous integration
+
+[`clearpath_msgs_ci`](.github/workflows/ci.yml) runs on every pull request:
+
+- **jazzy** (`build_and_test`) — builds and tests against the released `testing`/`main` repos.
+- **Jazzy Clearpath Source** (`source_build`) — source build of `clearpath_motor_msgs`,
+  `clearpath_msgs`, and `clearpath_platform_msgs`.
+
+Both jobs build against **released** dependencies and do not pull in upstream source branches, so
+they are not affected by in-progress branches in other Clearpath repositories — they should pass on
+their own. Because these are interface packages, a breaking change can still fail **downstream**
+builds that consume these messages, so rebuild and retest those consumers when you change an
+interface (see [Compatibility](#compatibility--read-this-first) above).
+
 ## Submitting a pull request
 
 1. Make sure the workspace builds cleanly.
